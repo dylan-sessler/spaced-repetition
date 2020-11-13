@@ -154,7 +154,7 @@ Use the defaults at the peril of your own wasted time. Below are the settings I
 
 The settings I am talking about here are  
 
-./images/deck-settings.png
+[[./images/deck-settings.png]]
 
 ** TODO Rules to be Successful
 *** TODO Do not learn if you do not understand
