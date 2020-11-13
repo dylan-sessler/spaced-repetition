@@ -74,15 +74,14 @@ of your lifetime. Knowing these costs you can come to the following conclusions:
   from having access to that knowledge, you should store it in your SRS.
 
 This is the most efficient solution I've found to solve for the problem of forgetting. 
-** DONE Process 
-   CLOSED: [2020-11-12 Thu 20:40]
+** TODO Process 
 The process of implementing a Spaced Repetition System is simple. You need to do
 two things:
-- Add knowledge you want to maintain to your SRS 
-- Review the knowledge your SRS has scheduled for you every day
-  - note: If you miss a day or a few, it's fine. Don't worry about it. It will
-    be slightly less efficient and you'll have a bit of a backlog but the
-    important thing is you get back into the habit of maintaining.
+*** Add knowledge you want to maintain to your SRS 
+*** Review the knowledge your SRS has scheduled for you every day
+If you miss a day or a few, it's fine. Don't worry about it. It will be
+slightly less efficient and you'll have a bit of a backlog but the important
+thing is you get back into the habit of maintaining.
 ** DONE The Tools
    CLOSED: [2020-11-12 Thu 21:18]
 *** Anki
@@ -150,7 +149,17 @@ lifetime with this tool. Take the time to get to know it!
 I would highly recommend starting off your SRS knowledge collection with
 important to remember or interesting knowledge from the manual itself!
 *** TODO Default Settings
+Use the defaults at the peril of your own wasted time. Below are the settings I
+*STRONGLY* recommend along with explantations for those of you who are curious.
+
+The settings I am talking about here are  
+
+./images/deck-settings.png
+
 ** TODO Rules to be Successful
+*** TODO Do not learn if you do not understand
+The goal is not to be good at filling in the blank in sentences. The goal is to
+re-stimuate valuable knowledge structures in your brain so you don't lose them. 
 *** TODO Formulating Knowledge
  - 20 Rules
  - Simple Rule
