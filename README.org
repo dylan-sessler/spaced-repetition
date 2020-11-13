@@ -1,1 +1,195 @@
 * spaced-repetition
+** DONE Value:Cost
+   CLOSED: [2020-11-10 Tue 22:41]
+*** Value
+- Guarantee a 95% LIFETIME retention rate on learned material
+- Reduce barriers to flow in complex, creative work
+- Never need to re-learn anything again
+*** Cost
+- 2 hours set-up 
+- 1-15 minutes/day maintenance (do this while pooping)
+- 30 seconds per item you want to remember to format for SRS
+
+More accurately, you could define the cost as:
+- 2 hours set-up
+- 140 seconds (LIFETIME) per item you want to remember (LIFETIME) 
+  - 30 seconds formatting for SRS 
+  - 110 seconds of lifetime maintenance
+** DONE Background
+   CLOSED: [2020-11-11 Wed 21:05]
+When you learn something you encode the information as a *phsyical*
+structure. It takes up space. It requires nutrients and energy to maintain. An
+average brain consumes about 20% of your daily intake of calories per day. It's
+because of this that your brain has self-cleaning process to keep it as slim and
+efficient as it possibly can be - it's called *forgetting*. 
+
+The world our brains evolved in was very different than it is today. We needed
+to get food and reproduce and react really fast to danger. Today, we're knowledge workers. We create value in the complex and
+abstract. We spend much more of our mental energy on future possibilities rather than
+current dangers, and depending on your specific field there are many orders of magnitude of performance increases
+available for making more optimal decisions. What prevents you from accessing
+these higher value solutions is your current physical information structures' limited
+experiences and knowledge.
+
+To upgrade ourselves, we learn. We read books, compare best practices, scour the
+internet, go to conventions, make mistakes, and ask eachother for feedback. And
+as we're spending huge amounts of our time collecting new information and
+experiences we're constantly *forgetting*. This is a huge waste of our efforts
+and time spent learning and amounts to a *loss of 75% of the material learned
+within 48 hours* with more decay happening with every passing hour.
+
+Forgetting is a natural process and it also has a natural solution. Everyone
+reading this article already knows what it is: *practice*.
+
+When we *re-stimulate* an information structure we have at some point learned, we allocate more resources to
+reinforcing it. It becomes more *durable*, and will be probabilistically less
+likely to be eradicated by our forgetting algorithm. 
+
+So why don't we practice more? Because we don't have *a system for practicing what we've learned efficiently*.
+** DONE Intro
+   CLOSED: [2020-11-11 Wed 21:11]
+A Spaced Repetition System (*SRS*) optimizes the process of practicing what you
+have learned in order to prevent forgetting. It does so in two ways:
+- It relies on *active recall* rather than *passive study*. This creates more
+  durable knowledge structures.
+- It computes optimum intervals that should separate reviews of knowledge. This
+  takes advantage of the [[https://en.wikipedia.org/wiki/Spacing_effect][the spacing effect]], ensuring that you get the highest available increase in knowledge durability
+  for your time.
+ 
+It is typically facilitated with software in order to enable users to maintain
+vast knowledge collections, sometimes spanning tens and thousands of items, at a
+cost of a few minutes per day. 
+
+It takes about 30 seconds to add a piece of knowledge to a Spaced Repetition
+System and about 110 seconds of practice to maintain that knowledge for the rest
+of your lifetime. Knowing these costs you can come to the following conclusions:
+- If at any point in your life you will ever need access to the knowledge again
+  (eg. googling it, checking notes, etc), even just once, you will save yourself time by storing
+  it in your SRS and being able to recall it on demand. 
+  - In addition to the saved time, this also has the added compounding benefit
+    of preventing you from having to leave a flow state in order to
+    seek out the knowledge.
+- If over the course of your lifetime you expect to gain or prevent the loss of your
+  (hourly-pay-rate/30) (eg. $50/hr would come out to $1.67) of increased value
+  from having access to that knowledge, you should store it in your SRS.
+
+This is the most efficient solution I've found to solve for the problem of forgetting. 
+** DONE Process 
+   CLOSED: [2020-11-12 Thu 20:40]
+The process of implementing a Spaced Repetition System is simple. You need to do
+two things:
+- Add knowledge you want to maintain to your SRS 
+- Review the knowledge your SRS has scheduled for you every day
+  - note: If you miss a day or a few, it's fine. Don't worry about it. It will
+    be slightly less efficient and you'll have a bit of a backlog but the
+    important thing is you get back into the habit of maintaining.
+** DONE The Tools
+   CLOSED: [2020-11-12 Thu 21:18]
+*** Anki
+Anki is the SRS I currently use and is the one we will be using to demonstrate
+today. It has the following notable traits.
+- [PLUS] Free and Open Source (FOSS)
+- [PLUS] Cross platform (Linux, Mac, Windows, iOS, Android) 
+  - note: The iOS app is not FOSS. It costs $25 and isn't quite as good as the
+    android version but will do fine. Let's be real, if you have apple products
+    you can afford the $25 to maintain everything you learn for the rest of your life.
+- [MINUS] default settings suck, they will make you spend about double the time you
+  actually need (my recommendations below)
+- [MINUS] The Spaced Repetition Anki employs is a slightly modified version of
+  the open sourced SM-2 (SuperMemo-2) algorithm from 1990. It's simple and effective, but
+  there are better algorithms out there for the core of your SRS. 
+*** Supermemo 
+Supermemo was my first SRS and is a much more powerful tool than Anki. The lead
+developer, Piotr Wozniak, was the orignal creator of Spaced Repetition Systems and he has
+devoted his life to building out an incredibly powerful, but admittedly
+idiosyncratic SRS. He has (self)-published an [[https://supermemo.guru/wiki/SuperMemo_Guru][an incredible amount of work]] on the
+topics of learning, memory, and sleep. 
+
+It has the following notable traits:
+- [PLUS] SM-18 algorithm - consistently and obsessively optimized over the last
+  30 years by the father of spaced repetition. 
+- [PLUS] Built-in [[https://supermemo.guru/wiki/Incremental_reading][Incremental Learning]] workflow
+  - This is the only effective tool I've found at implementing a solid
+    incremental learning workflow, which is by far the most efficient method of
+    processing text, video, images from first read -> active-recalls.
+- [MINUS] Windows Only - This means no SRS while you poop :(
+- [MINUS] Closed Source - You are totally reliant on the developer having built
+  something for you to use it. Some workflows and keybindings are really
+  idiosyncratic and you'll wish that someone could have built a plug-in to let
+  you customize it. 
+- [NEUTRAL] [[https://www.help.supermemo.org/wiki/Features][This tool is massive.]] In addition to incremental learning and SRS,
+  it features a sleep analysis tool, a time management tool, a schedule planner,
+  and even an incremental email client. You can go really deep and spend years
+  learning how to leverage this tool more effectively and it can be a bit
+  intimidating to new users. Expect to learn the tool incrementally and you'll
+  be fine. 
+
+Ultimately, I would prefer to be using Supermemo as it's a much more powerful
+tool for a very important job. However the friction created from the tool being closed source and
+windows was worse for me than the performance loss from switching to Anki.
+*** Other Tools
+Above are the only two SRSes that I have experience with and are by far the most
+popular. There are others being developed currently that a quick google search
+will reveal. 
+** TODO Install
+- [[https://apps.ankiweb.net/][Desktop]]
+- [[https://play.google.com/store/apps/details?id=com.ichi2.anki][Google Play (Android)]] 
+- [[https://apps.apple.com/us/app/ankimobile-flashcards/id373493387][Apple]]
+*** DONE Syncing Across Devices 
+    CLOSED: [2020-11-12 Thu 21:25]
+You will want to be using Anki on multiple devices. Adding knowledge to your
+collection is most effectively done on the desktop. Practicing knowledge can be
+done just as efficiently on your phone and can turn pooping or any kind of
+waiting into an incredibly productive activity.
+[[https://docs.ankiweb.net/#/syncing?id=syncing-with-ankiweb][Syncing with AnkiWeb]]
+*** DONE Anki Documentation
+    CLOSED: [2020-11-12 Thu 21:27]
+Here's a link to the [[https://docs.ankiweb.net/#/][Anki Manual]]. You're going to hopefully be spending a
+lifetime with this tool. Take the time to get to know it! 
+
+I would highly recommend starting off your SRS knowledge collection with
+important to remember or interesting knowledge from the manual itself!
+*** TODO Default Settings
+** TODO Rules to be Successful
+*** TODO Formulating Knowledge
+ - 20 Rules
+ - Simple Rule
+*** TODO Everything in One Deck
+** TODO Entry Level SRS
+*** Adding While Learning 
+*** Things you frequently Need
+** TODO Maximalist SRS
+Here are some additional ways that you can utilize your SRS for profit.
+*** Mining your experience
+*** Behavior Modification
+*** Mindset Modification 
+*** Training Skills
+*** Modifying the Minds of Others
+** TODO Tips and Tricks
+- Just answer "Good" or "Again" when evaluating a question. Don't stress about the decision of whether
+  something was "Hard" or "Easy". It's unnecessary decision fatigue for minimal gains 
+- Don't worry too much about formatting your knowledge. Keep it simple and
+  remember that you can always edit it later if you don't like how it's
+  formatted. Try to keep knowledge adding under 30 seconds per piece of knowledge.
+** TODO Optimizing your Learning Interval
+The amount of effort it takes to maintain a knowledge retention rate increases
+exponentially the closer it gets to 100%. Eg) it takes a lot less work to
+increase retention from 85% -> 90% than it does from 90% -> 95%. In general,
+users of SRS target a 90% retention rate, which means that 90% of the time they
+remembered the active recall prompt, and 10% of the time they could not recall
+the prompt.
+
+Since this is the retention rate at time of recall and the average card in your
+collection will be halfway between just reviewed and the next time of recall,
+your actual retention rate for your knowledge collection will be roughly equal
+to  100%-(100%-targetRetentionRate)/2. In our case of targeting 90%, your
+average recall across your collection at any point in time in your life will be
+95%.
+
+This is adequate for most users and is a good balance of value:cost. This is
+also something you can tweak.
+
+[[https://docs.ankiweb.net/#/deck-options?id=reviews][Anki Documentation on modifying the Interval Modifier]]
+** TODO Further Work
+*** TODO Incremental Reading Documentation
+* presentation
