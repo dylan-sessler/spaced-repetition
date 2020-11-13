@@ -152,10 +152,31 @@ important to remember or interesting knowledge from the manual itself!
 Use the defaults at the peril of your own wasted time. Below are the settings I
 *STRONGLY* recommend along with explantations for those of you who are curious.
 
-The settings I am talking about here are  
-
+The default settings to customize are [[https://docs.ankiweb.net/#/deck-options][Deck Options]] and can be accessed here:  
 [[./images/deck-settings.png]]
 
+**** TLDR Options
+| Option                                 | Default Value | More Efficient Value       |
+|----------------------------------------+---------------+----------------------------|
+| New Cards -> Steps                     | 1 10          | 1440                       |
+| New Cards -> Graduating Interval       | 1             | 5                          |
+| New Cards -> Easy Interval             | 4             | 5                          |
+| New Cards -> Bury related new cards... | un-checked    | checked                    |
+| Reviews -> Bury related reviews...     | un-checked    | checked                    |
+| Lapses -> Steps                        | 10            | [LEFT INTENTIONALLY BLANK] |
+| Lapses -> New Interval                 | 0%            | 100%                       |
+**** The Deeper Dive Into Options
+In order to determine the effect of different default settings on the cost of
+maintaining a knowledge collection I built an [[https://jsfiddle.net/qkt08dfn/3/][Anki Scheduler Simulator]] and
+compared behavior of the Anki SM-2 algorithm from the 1990s to my experience
+using the modern SM-18 algorithm in supermemo.
+***** New Cards Options Explained
+If you will be using an SRS for life, which you should be, 
+Using my settings, by the time you review a card for the 11th time you will have
+a review interval of over 50 years. At a cost of 10 seconds per review (pretty
+conservative)  
+***** Reviews Options Explained
+***** Lapses Options Explained
 ** TODO Rules to be Successful
 *** TODO Do not learn if you do not understand
 The goal is not to be good at filling in the blank in sentences. The goal is to
@@ -180,6 +201,7 @@ Here are some additional ways that you can utilize your SRS for profit.
 - Don't worry too much about formatting your knowledge. Keep it simple and
   remember that you can always edit it later if you don't like how it's
   formatted. Try to keep knowledge adding under 30 seconds per piece of knowledge.
+** TODO Useful Add-Ons
 ** TODO Optimizing your Learning Interval
 The amount of effort it takes to maintain a knowledge retention rate increases
 exponentially the closer it gets to 100%. Eg) it takes a lot less work to
@@ -201,4 +223,6 @@ also something you can tweak.
 [[https://docs.ankiweb.net/#/deck-options?id=reviews][Anki Documentation on modifying the Interval Modifier]]
 ** TODO Further Work
 *** TODO Incremental Reading Documentation
+** Miscellaneous
+
 * presentation
