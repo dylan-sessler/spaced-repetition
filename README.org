@@ -116,7 +116,7 @@ When you're in a funk, do something that will make you feel just a little bit be
 
 What should we occlude here? The answer becomes obvious when you think about
 the implementation. When we are in a funk, we want to take a specific
-action. Being in a funk is the context, doing something that will make you
+action. Being in a funk is the context. Doing something that will make you
 feel better is the action. In the real world, when we identify that we're in a
 funk, we want the response to be to take the action of doing something that
 will make us feel a little bit better. This can be trained by occluding as
@@ -132,8 +132,8 @@ Occluding the opposite way wouldn't make any sense for /what we are trying to ac
 When you're [...], do something that will make you feel just a little bit better. 
 #+END_QUOTE
 
-The trigger of the desired action is being in a funk, not doing something that
-will make you feel just a little bit better.
+You should be occluding the desired repsonse and leaving the context you want to
+have that response in.
 **** Image Occlusions
 Image occlusions are not part of the stock Anki experience, but are incredibly
 valuable. Much of our knowledge is better expressed as an image rather than
@@ -201,7 +201,7 @@ It has the following notable traits:
 
 Ultimately, I would prefer to be using Supermemo as it's a much more powerful
 tool for a very important job. However the friction created from the tool being closed source and
-windows was worse for me than the performance loss from switching to Anki.
+Windows only was worse for me than the performance loss from switching to Anki.
 *** Other Tools
 Above are the only two SRSes that I have experience with and are by far the most
 popular. There are others being developed currently that a quick google search
@@ -229,8 +229,8 @@ important to remember or interesting knowledge from the manual itself!
     CLOSED: [2020-11-14 Sat 10:35]
 Use the defaults at the peril of your own wasted time. Below are the settings I
 *STRONGLY* recommend along with explantations for those of you who are
-curious. Changing these settings will result in a roughly 50% cost reduction in daily
-maintenance time over your lifetime at an imperceptible loss to retention.
+curious. Changing these settings will result in a roughly 66% cost reduction in daily
+maintenance time over your lifetime for an imperceptible loss to retention.
 
 The default settings to customize are [[https://docs.ankiweb.net/#/deck-options][Deck Options]] and can be accessed here:  
 [[./images/deck-settings.png]]
@@ -247,8 +247,11 @@ The default settings to customize are [[https://docs.ankiweb.net/#/deck-options]
 | Lapses -> New Interval                 | 0%            | 100%                       |
 
 *If you do nothing else, change the Lapses -> Steps and Lapses -> New Interval Settings*
+
 *If you do nothing else, change the Lapses -> Steps and Lapses -> New Interval Settings*
+
 *If you do nothing else, change the Lapses -> Steps and Lapses -> New Interval Settings*
+
 (I said it three times so you know it's important)
 
 [[*Rules to be Successful][Skip ahead]] to the next section if you don't want to dive deep.
@@ -348,9 +351,8 @@ For more info on this read [[https://docs.ankiweb.net/#/studying?id=siblings-and
 
 I find these settings to be incredibly irresponsible and destructive, and
 left un-changed will render Anki an unusable application for long-term SRS with
-even moderate workloads. When people switch from Anki -> Supermemo, this is the
-main reason why. 
-
+even moderate workloads.
+ 
 The two above settings mean that when you answer that you did not recall the
 information correctly, Anki will show the knowledge to you again in 10 minutes
 AND Anki will reset your interval on the card to 1 day. 
@@ -367,20 +369,13 @@ your brain not been able to recall. However, with the re-exposure and re-stimula
 likely that the stability of that memory would be solidly retained and having to
 re-progress through all the reviews would be highly inefficient.
 
-IMO, this should be set to at least 100%, to retain the same interval, and
-modern-day data-driven supermemo algorithm would dictate that it should be set to roughly the
-same length of time as the card would have been set to if it was answered "good"
-(default 250%).
-
 I find this especially troubling, considering that in a proper spaced repetition
 system you should never have a 100% recall rate as the amount of time taken in
 order to ensure a higher recall rate increases exponentially with the target
 recall rate that you are shooting for. In reality, there are very few sets of
-knowledge that you need to retain near 100% recall-ability of. Supermemo
-defaults to a setting next showing ratios to a 90% recall rate threshold, and
-Anki parrots this as the typical default ideal for a collection.
+knowledge that you need to retain near 100% recall-ability of
 
-What's insane about this is that Anki is expecting that you will be answer that
+What's insane about this is that Anki is expecting that you will answer that
 you were not able to recall the information on 10% of your cards, and its default behavior is to reset a card to a 1
 day interval. This means that every review session, 10% of your cards will
 essentially become brand new again and over time it will be impossible to keep
@@ -388,12 +383,12 @@ up with maintaining your collection. This is actually insane and makes no
 sense. Just because you have a momentary lapse in recall that doesn't mean all
 structures relating to the information in your brain have been eliminated! We
 observe this regularly when we re-learn something and it is much easier to learn
-the first time. This is a HUGE design flaw in the efficiency of the application
+than the first time. This is a HUGE design flaw in the efficiency of the application
 in supporting lifetime learning.
 
 Compare this to Supermemo, where due to the consistent exponential delay
 increases ensure that your daily review load will be mostly set by the rate of
-new cards being added to your collection, not also exponentionall growing based
+new cards being added to your collection, not also exponentially growing based
 on the sized of your collection.
 
 Based on running the [[https://jsfiddle.net/j1v4ym2z/9/][Anki Schedule Simulator]], just by changing the Lapses -> New
@@ -404,15 +399,7 @@ plugin for at some point.
 
 Eliminating the 10 minute after lapse review will also reduce cost of knowledge
 maintanance by ~10%.
-** TODO Rules to be Successful
-*** TODO Do not learn if you do not understand
-The goal is not to be good at filling in the blank in sentences. The goal is to
-re-stimuate valuable knowledge structures in your brain so you don't lose them. 
-*** TODO Formulating Knowledge
- - 20 Rules
- - Simple Rule
-*** TODO Everything in One Deck
-*** TODO Simple Recall Grading
+****** TODO Build a Plugin for setting the Lapses -> New Interval to default ease
 ** TODO Entry Level SRS
 *** Adding While Learning 
 *** Things you frequently Need
@@ -423,6 +410,104 @@ Here are some additional ways that you can utilize your SRS for profit.
 *** Mindset Modification 
 *** Training Skills
 *** Modifying the Minds of Others
+** DONE Efficient Usage Patterns
+   CLOSED: [2020-11-14 Sat 14:58]
+*** DONE Do Not Learn If You Do Not Understand
+    CLOSED: [2020-11-14 Sat 14:16]
+The goal of an SRS is to efficiently maintain and improve the durability of your
+hard-earned knowledge and experience. It is not to be really good at answering
+text occlusions.
+
+The more *cohesive*, or interconnected, your knowledge is the more useful and durable it is likely
+to be. The more you know about a topic and the more you understand about how
+it's related to other topics, the more useful and durable the knowledge on the
+topic will be. On a physical level, highly cohesive knowledge results in knowledge
+structures that are larger and more interconected. Due to the size and quantity
+of the connections, this knowledge is much less likely to be eliminated by your
+forgetting processes.
+
+When you create an active recall card for SRS, you will get much more value in
+terms of overall knowledge durability increase if it fires an electrical impulse
+of stimulus into a cohesive knowledge network rather than an isolated piece of knoledge.
+
+As a general rule, you can practice this by never importing another person's
+Anki decks. By taking the time to get the bigger picture and do the synthesis
+work on your own you will get a lot more bang for your buck on your review time.
+
+The only potential exception I can see for this learning a new language, as you
+already have strong knowledge networks relating to a concept, you are just
+looking to associate a new symbol mapping to that concept. But even then,
+realize that you are only learning symbol mappings. It's up to you to still
+practice the language in context to learn how to speak it.
+*** DONE Formulating Knowledge
+    CLOSED: [2020-11-14 Sat 14:25]
+The author of Supermemo published an article in 1999 that is still cited widely
+as the gold standard resource on [[http://super-memory.com/articles/20rules.htm][The 20 Rules of Formulating Knowledge]].
+(Note that the first rule is "Do Not Learn if You Do Not Understand") 
+
+I would *STRONGLY* recommend reading and re-reading the article, but if you don't here's the
+main takeaway:
+#+BEGIN_QUOTE
+Store knowledge as simply as possible, but no simpler.
+#+END_QUOTE
+
+The knowledge you store in your brain has to be encoded in physical
+structures. Do yourself a favor and make your job easy by keeping your knowledge
+simple.
+
+For practical examples of this, read [[http://super-memory.com/articles/20rules.htm][The 20 Rules of Formulating Knowledge]].
+*** DONE Everything in One Deck
+    CLOSED: [2020-11-14 Sat 14:37]
+The Anki manual has [[https://docs.ankiweb.net/#/editing?id=using-decks-appropriately][some documentation on this]], but it's not strongly worded
+enough in my opinion. 
+
+You should only ever be using one deck. You want your knowledge to be all mixed together and interconnected - it's a huge and free
+buff to durability of knowledge structures. In addition to this, it also enables
+you to make novel connections between topics as a free bonus!
+
+When you have multiple decks, you have to spend time going into each deck and
+doing your daily review and practically you don't end up doing this and end up
+having large sections of your knowledge base that decay. You should really be
+using tags or custom fields to separate your knowledge for easier group access
+later.
+
+As an example, when I was learning to play League of Legends, I was Anki-ing a
+ton. While I was doing this I was tagging the knowledge with "league", which
+enabled me to mass-suspend (no longer be reviewing) the knowledge a few months
+later when I stopped playing.
+
+That being said, there are some cases where you could break this rule
+profitably. I personally have a second deck "nsfw", which as you might guess is
+where I store knowledge relating to topics I wouldn't want to be displaying on a
+screen while my boss walked by. This is a good example of a case for multiple
+decks where you always want to be reviewing the knowledge separately.
+*** DONE Simple Recall Grading
+    CLOSED: [2020-11-14 Sat 14:56]
+When practicing knowledge in Anki, you have four options to answer with based on how well
+you remembered or didn't remember proper response to the occlusion. [[https://docs.ankiweb.net/#/studying?id=reviewing][Link to Documentation]].
+
+This idea behind this feature is to dynamically adjust the multiplier between
+intervals of review (ease) to more accurately match the "difficulty" of the
+knowledge you are trying to actively recall. This is a cute idea in theory, but
+the reality is that this dramatically increases [[https://en.wikipedia.org/wiki/Decision_fatigue][decision fatigue]] and the
+cognitive cost of a review session.
+
+Not only is this decision mentally draining, making your new habit harder than it
+needs to be, it really doesn't do anything material to benefit you. Even if you
+answer "Easy" on every active recall for a piece of knowledge for the rest of
+your life, you're only going to shave off 3 reviews - or 30 seconds total. If
+the maximum amount of time you can save is 30 seconds IFF you mark EVERY
+response as easy (highly unlikely as the interval multiplier increses each time) - is it really worth
+having to make that decision on EVERY knowledge review? 
+
+Not only that - what is the relative ease of answering the active recall prompt
+really telling you? Is it that the knowledge is poorly formulated? Is it that
+you're tired at that moment? It it just that you're at the beginning of a review
+session rather than the end? 
+
+Don't bother with relative ease. Just answer "Good" or "Again" - you either got
+it or you didn't and you can use that data in order to [[*Optimizing your Learning Interval][Optimize your Learning Interval]]. 
+**** TODO Build a Plug-in for this
 ** TODO Tips and Tricks
 - Just answer "Good" or "Again" when evaluating a question. Don't stress about the decision of whether
   something was "Hard" or "Easy". It's unnecessary decision fatigue for minimal gains 
