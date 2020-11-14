@@ -74,14 +74,17 @@ of your lifetime. Knowing these costs you can come to the following conclusions:
   from having access to that knowledge, you should store it in your SRS.
 
 This is the most efficient solution I've found to solve for the problem of forgetting. 
-** TODO Process 
+** DONE Process 
+   CLOSED: [2020-11-14 Sat 12:50]
 The process of implementing a Spaced Repetition System is simple. You need to do
 two things:
+- Add Knowledge
+- Practice Knowledge
 *** Add knowledge you want to maintain to your SRS 
 The process of adding knowledge to your SRS is a process of formatting the
-knowledge for efficient *active recall*. This is done through the process of
-*occlusion*: hiding some of the information in order to make your brain fill in
-the blank. 
+knowledge for efficient *active recall*. This is done through 
+*occlusion*: hiding some of the information in order to make your actively
+challenge your brain fill in the blank. 
 **** Text Occlusions a.k.a. Cloze Deletions
 Check out the [[https://docs.ankiweb.net/#/editing?id=cloze-deletion][Anki Docs on Cloze Deletion]] for good examples and explanations.
 
@@ -116,23 +119,30 @@ the implementation. When we are in a funk, we want to take a specific
 action. Being in a funk is the context, doing something that will make you
 feel better is the action. In the real world, when we identify that we're in a
 funk, we want the response to be to take the action of doing something that
-will make you feel a little bit better. This can be trained by occluding as
+will make us feel a little bit better. This can be trained by occluding as
 follows:
 
+#+BEGIN_CENTER
 When you're in a funk, do something that will [...]
+#+END_CENTER
 
-Occluding the opposite way wouldn't make any sense:
+Occluding the opposite way wouldn't make any sense for /what we are trying to acheive/.
 
-> When you're [...], do something that will make you feel just a little bit better. 
+#+BEGIN_CENTER
+When you're [...], do something that will make you feel just a little bit better. 
+#+END_CENTER
 
 The trigger of the desired action is being in a funk, not doing something that
 will make you feel just a little bit better.
 **** Image Occlusions
+Image occlusions are not part of the stock Anki experience, but are incredibly
+valuable. Much of our knowledge is better expressed as an image rather than
+text and this is a tool that allows you to do that.
 
-The goal of an SRS is to efficiently increase the durability of existing knowledge
-structures as they exist in your brain in the context they are useful
-in. Occlusion is really good at this for
-
+I would highly recommend installing this right away by following the linked
+instructions below:
+- [[https://docs.ankiweb.net/#/addons?id=add-ons][Anki Docs on Add-Ons]]
+- [[https://ankiweb.net/shared/info/1111933094][Image Occlusion Add-On]]
 **** Final Thoughts
 Formulating knowledge efficiently /for your experience/ is a skill you will
 build over time. Don't worry about being perfect, you can always edit knowledge
@@ -143,11 +153,7 @@ your life - you shouldn't be spending more than 30 seconds on the formulation of
 that knowledge! There's a lot to learn and you don't need to be perfect with
 this - just jump in and figure it out over time :)
 
-The biggest skill
-you will have to learn in order to use an SRS effectively is [[*Formulating
-Knowledge][Formulating Knowledge]], which we cover in more detail in a later section. 
-
-
+We cover more best practices of [[*FormulatingKnowledge][Formulating Knowledge]] later on. 
 *** Review the knowledge your SRS has scheduled for you every day
 If you miss a day or a few, it's fine. Don't worry about it. It will be
 slightly less efficient and you'll have a bit of a backlog but the important
