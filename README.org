@@ -78,6 +78,74 @@ This is the most efficient solution I've found to solve for the problem of forge
 The process of implementing a Spaced Repetition System is simple. You need to do
 two things:
 *** Add knowledge you want to maintain to your SRS 
+The process of adding knowledge to your SRS is a process of formatting the
+knowledge for efficient *active recall*. This is done through the process of
+*occlusion*: hiding some of the information in order to make your brain fill in
+the blank. 
+**** Text Occlusions a.k.a. Cloze Deletions
+Check out the [[https://docs.ankiweb.net/#/editing?id=cloze-deletion][Anki Docs on Cloze Deletion]] for good examples and explanations.
+
+These will be the most common type of knowledge you will add to your SRS. When
+creating a cloze deletion, you want to keep the following in mind:
+***** Provide Adequate Context
+The text that is not occluded is the /context/ of your knowledge. Try to make
+this context match the context the knowledge will be useful in wherever possible.
+
+When creating cloze deletions, keep in mind that the card will pop up in a
+random order with the rest of your knowledge. If something you are learning is
+domain specific (eg. to a specific programming language), mention that at the
+start of the cloze deletion to trigger the right parts of your brain to fire in
+response to seeing the information 
+
+> *In Javascript*, hyphens [are | are not] allowed in variable names
+***** Match Occlusion to Desired Implementation
+When deciding what to occlude, think about the implementation of the
+knowledge and try to match that as closely as possible. 
+
+For example, let's say you're trying to program a healthy response to feeling in a
+funk in yourself. You could start out with the sentence:
+
+#+BEGIN_QUOTE
+When you're in a funk, do something that will make you feel just a little bit better.
+#+END_QUOTE
+
+What should we occlude here? The answer becomes obvious when you think about
+the implementation. When we are in a funk, we want to take a specific
+action. Being in a funk is the context, doing something that will make you
+feel better is the action. In the real world, when we identify that we're in a
+funk, we want the response to be to take the action of doing something that
+will make you feel a little bit better. This can be trained by occluding as
+follows:
+
+When you're in a funk, do something that will [...]
+
+Occluding the opposite way wouldn't make any sense:
+
+> When you're [...], do something that will make you feel just a little bit better. 
+
+The trigger of the desired action is being in a funk, not doing something that
+will make you feel just a little bit better.
+**** Image Occlusions
+
+The goal of an SRS is to efficiently increase the durability of existing knowledge
+structures as they exist in your brain in the context they are useful
+in. Occlusion is really good at this for
+
+**** Final Thoughts
+Formulating knowledge efficiently /for your experience/ is a skill you will
+build over time. Don't worry about being perfect, you can always edit knowledge
+that is poorly formulated when it comes up in review. 
+
+Remember, that it only costs 110 seconds to retain the knowledge for the rest of
+your life - you shouldn't be spending more than 30 seconds on the formulation of
+that knowledge! There's a lot to learn and you don't need to be perfect with
+this - just jump in and figure it out over time :)
+
+The biggest skill
+you will have to learn in order to use an SRS effectively is [[*Formulating
+Knowledge][Formulating Knowledge]], which we cover in more detail in a later section. 
+
+
 *** Review the knowledge your SRS has scheduled for you every day
 If you miss a day or a few, it's fine. Don't worry about it. It will be
 slightly less efficient and you'll have a bit of a backlog but the important
@@ -130,7 +198,8 @@ windows was worse for me than the performance loss from switching to Anki.
 Above are the only two SRSes that I have experience with and are by far the most
 popular. There are others being developed currently that a quick google search
 will reveal. 
-** TODO Install
+** DONE Install
+   CLOSED: [2020-11-14 Sat 10:36]
 - [[https://apps.ankiweb.net/][Desktop]]
 - [[https://play.google.com/store/apps/details?id=com.ichi2.anki][Google Play (Android)]] 
 - [[https://apps.apple.com/us/app/ankimobile-flashcards/id373493387][Apple]]
@@ -148,9 +217,12 @@ lifetime with this tool. Take the time to get to know it!
 
 I would highly recommend starting off your SRS knowledge collection with
 important to remember or interesting knowledge from the manual itself!
-*** TODO Default Settings
+*** DONE Default Settings
+    CLOSED: [2020-11-14 Sat 10:35]
 Use the defaults at the peril of your own wasted time. Below are the settings I
-*STRONGLY* recommend along with explantations for those of you who are curious.
+*STRONGLY* recommend along with explantations for those of you who are
+curious. Changing these settings will result in a roughly 50% cost reduction in daily
+maintenance time over your lifetime at an imperceptible loss to retention.
 
 The default settings to customize are [[https://docs.ankiweb.net/#/deck-options][Deck Options]] and can be accessed here:  
 [[./images/deck-settings.png]]
@@ -165,18 +237,165 @@ The default settings to customize are [[https://docs.ankiweb.net/#/deck-options]
 | Reviews -> Bury related reviews...     | un-checked    | checked                    |
 | Lapses -> Steps                        | 10            | [LEFT INTENTIONALLY BLANK] |
 | Lapses -> New Interval                 | 0%            | 100%                       |
+
+*If you do nothing else, change the Lapses -> Steps and Lapses -> New Interval Settings*
+*If you do nothing else, change the Lapses -> Steps and Lapses -> New Interval Settings*
+*If you do nothing else, change the Lapses -> Steps and Lapses -> New Interval Settings*
+(I said it three times so you know it's important)
+
+[[*Rules to be Successful][Skip ahead]] to the next section if you don't want to dive deep.
 **** The Deeper Dive Into Options
 In order to determine the effect of different default settings on the cost of
 maintaining a knowledge collection I built an [[https://jsfiddle.net/qkt08dfn/3/][Anki Scheduler Simulator]] and
 compared behavior of the Anki SM-2 algorithm from the 1990s to my experience
-using the modern SM-18 algorithm in supermemo.
+using the modern SM-18 algorithm in supermemo. 
+
+As you use the tool, you can continue to optimize further by [[*Optimizing your Learning Interval][Optimizing your Learning Interval]],
+but the above settings are a great place to get started.
 ***** New Cards Options Explained
-If you will be using an SRS for life, which you should be, 
+| Option                                 | Default Value | More Efficient Value       |
+|----------------------------------------+---------------+----------------------------|
+| New Cards -> Steps                     | 1 10          | 1440                       |
+| New Cards -> Graduating Interval       | 1             | 5                          |
+| New Cards -> Easy Interval             | 4             | 5                          |
+| New Cards -> Bury related new cards... | un-checked    | checked                    |
+
+The default settings in Anki assume that you are learning something new for the
+very first time in the Anki app (hence the default values of showing the new
+card within 1 minute, and then in 10 minutes). This is an antipattern to efficient and
+cohesive knowledge formation, and breaks the first "rule" that we discuss later
+on [[*Do not learn if you do not understand][Do not learn if you do not understand]].  
+
+By the time you have loaded a piece of knowledge into the SRS you should
+have already had a meaningful exposure, creating a non-trivial amount of memory
+durability. Because of this, you don't need as many early exposures and this can
+save significantly on lifetime cost of knowledge maintenance.
+
 Using my settings, by the time you review a card for the 11th time you will have
-a review interval of over 50 years. At a cost of 10 seconds per review (pretty
-conservative)  
+a review interval of over 50 years (and have already maintained the knowledge
+for ~40 years). At a cost of 10 seconds per review (pretty conservative), this
+means that each piece of knowledge will cost 110 seconds to maintain for the
+rest of your life. 
+
+The beginning of the default Anki settings scheduling progression looks like
+this:
+- 1 minute from creation 
+- 10 minutes from last review
+- 1 day from last review 
+- 2.5 days from last review
+- 5 days from last review
+- 12 days from last review
+- etc...
+
+With my recommended settings:
+- 1 day from creation
+- 5 days from review 
+- 12 days from last review
+
+As you can see this shaves off three reviews from the early learning process
+which is really important for two reasons:
+1) This is a 27% reduction to lifetime knowledge maintenance costs. This
+   improves the value:cost of using your SRS significantly. 
+2) This is a 50% reduction to early review costs. When you are actively learning
+   something new, your daily review load will increase a lot as the majority of
+   the time spent reviewing is front-loaded to the beginning of the maintenance
+   period. A 50% reduction to early review costs effectively makes it so that
+   you can learn twice as fast for the same cost of early retention (which is
+   most of the work).
+
+The reason not to reduce the early learning load would be if the retention rate
+dropped to an unacceptable level during this period. I have not found this to be
+the case for way I formulate my knowledge but your milage may vary depending on
+how you use your SRS. Using my settings my current retention rate on Young Cards
+(defined as between 1 and 21 days old) is 99.15%, strongly suggesting that I should actually be reviewing *less frequently* in the
+early stages. 
+
+Setting the cadence of review is controlled using the Steps and Graduating
+Interval options. 
+
+The Easy Interval is a feature I don't really use as I prefer [[*Simple Recall Grading][Simple Recall Grading]],
+but if you were going to use it you should have the Easy interval be at least as
+long as the Graduating Interval.
+
+Bury New related cards is useful for multi-occlusion cards, which makes it so
+that you are spacing your reviews of very similar topics further apart in order
+to get more value from the review.
+
+For more info on this read [[https://docs.ankiweb.net/#/studying?id=siblings-and-burying][the docs on siblings and burying]]. 
 ***** Reviews Options Explained
+| Option                                 | Default Value | More Efficient Value       |
+|----------------------------------------+---------------+----------------------------|
+| Reviews -> Bury related reviews...     | un-checked    | checked                    |
+
+Bury New related cards is useful for multi-occlusion cards, which makes it so
+that you are spacing your reviews of very similar topics further apart in order
+to get more value from the review.
+
+For more info on this read [[https://docs.ankiweb.net/#/studying?id=siblings-and-burying][the docs on siblings and burying]]. 
 ***** Lapses Options Explained
+| Option                                 | Default Value | More Efficient Value       |
+|----------------------------------------+---------------+----------------------------|
+| Lapses -> Steps                        | 10            | [LEFT INTENTIONALLY BLANK] |
+| Lapses -> New Interval                 | 0%            | 100%                       |
+
+I find these settings to be incredibly irresponsible and destructive, and
+left un-changed will render Anki an unusable application for long-term SRS with
+even moderate workloads. When people switch from Anki -> Supermemo, this is the
+main reason why. 
+
+The two above settings mean that when you answer that you did not recall the
+information correctly, Anki will show the knowledge to you again in 10 minutes
+AND Anki will reset your interval on the card to 1 day. 
+
+This means that if you have a card that was 5 years between reviews, and
+you happened to not be able to access the information *one time*, it would reset to showing you at 1 day, then 2.5
+days, then 6.25 days, etc.
+
+As you can expect, when you have something that you have reviewed enough times
+to be on a 5 year interval, you have already built a good amount of mental
+structure around the item in long-term storage, you just may have at that
+individual moment due to fatigue or a haphazard access trace being culled in
+your brain not been able to recall. However, with the re-exposure and re-stimulation it's highly
+likely that the stability of that memory would be solidly retained and having to
+re-progress through all the reviews would be highly inefficient.
+
+IMO, this should be set to at least 100%, to retain the same interval, and
+modern-day data-driven supermemo algorithm would dictate that it should be set to roughly the
+same length of time as the card would have been set to if it was answered "good"
+(default 250%).
+
+I find this especially troubling, considering that in a proper spaced repetition
+system you should never have a 100% recall rate as the amount of time taken in
+order to ensure a higher recall rate increases exponentially with the target
+recall rate that you are shooting for. In reality, there are very few sets of
+knowledge that you need to retain near 100% recall-ability of. Supermemo
+defaults to a setting next showing ratios to a 90% recall rate threshold, and
+Anki parrots this as the typical default ideal for a collection.
+
+What's insane about this is that Anki is expecting that you will be answer that
+you were not able to recall the information on 10% of your cards, and its default behavior is to reset a card to a 1
+day interval. This means that every review session, 10% of your cards will
+essentially become brand new again and over time it will be impossible to keep
+up with maintaining your collection. This is actually insane and makes no
+sense. Just because you have a momentary lapse in recall that doesn't mean all
+structures relating to the information in your brain have been eliminated! We
+observe this regularly when we re-learn something and it is much easier to learn
+the first time. This is a HUGE design flaw in the efficiency of the application
+in supporting lifetime learning.
+
+Compare this to Supermemo, where due to the consistent exponential delay
+increases ensure that your daily review load will be mostly set by the rate of
+new cards being added to your collection, not also exponentionall growing based
+on the sized of your collection.
+
+Based on running the [[https://jsfiddle.net/j1v4ym2z/9/][Anki Schedule Simulator]], just by changing the Lapses -> New
+Interval setting from 0% -> 100% it results in a 50% reduction in the amount of
+time needed to maintain your collection. Ideally this could be set to 250% (or
+whatever your default ease is set to) and is likely something I will build a
+plugin for at some point.
+
+Eliminating the 10 minute after lapse review will also reduce cost of knowledge
+maintanance by ~10%.
 ** TODO Rules to be Successful
 *** TODO Do not learn if you do not understand
 The goal is not to be good at filling in the blank in sentences. The goal is to
@@ -185,6 +404,7 @@ re-stimuate valuable knowledge structures in your brain so you don't lose them.
  - 20 Rules
  - Simple Rule
 *** TODO Everything in One Deck
+*** TODO Simple Recall Grading
 ** TODO Entry Level SRS
 *** Adding While Learning 
 *** Things you frequently Need
