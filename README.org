@@ -28,8 +28,8 @@ to get food and reproduce and react really fast to danger. Today, we're knowledg
 abstract. We spend much more of our mental energy on future possibilities rather than
 current dangers, and depending on your specific field there are many orders of magnitude of performance increases
 available for making more optimal decisions. What prevents you from accessing
-these higher value solutions is your current physical information structures' limited
-experiences and knowledge.
+these higher value solutions is your current physical information structure
+(your brain)'s limited experiences and knowledge.
 
 To upgrade ourselves, we learn. We read books, compare best practices, scour the
 internet, go to conventions, make mistakes, and ask eachother for feedback. And
@@ -56,7 +56,7 @@ have learned in order to prevent forgetting. It does so in two ways:
   takes advantage of the [[https://en.wikipedia.org/wiki/Spacing_effect][the spacing effect]], ensuring that you get the highest available increase in knowledge durability
   for your time.
  
-It is typically facilitated with software in order to enable users to maintain
+An SRS is typically facilitated with software in order to enable users to maintain
 vast knowledge collections, sometimes spanning tens and thousands of items, at a
 cost of a few minutes per day. 
 
@@ -83,8 +83,8 @@ two things:
 *** Add knowledge you want to maintain to your SRS 
 The process of adding knowledge to your SRS is a process of formatting the
 knowledge for efficient *active recall*. This is done through 
-*occlusion*: hiding some of the information in order to make your actively
-challenge your brain fill in the blank. 
+*occlusion*: hiding some of the information in order to
+challenge your brain to fill in the blank. 
 **** Text Occlusions a.k.a. Cloze Deletions
 Check out the [[https://docs.ankiweb.net/#/editing?id=cloze-deletion][Anki Docs on Cloze Deletion]] for good examples and explanations.
 
@@ -100,9 +100,9 @@ domain specific (eg. to a specific programming language), mention that at the
 start of the cloze deletion to trigger the right parts of your brain to fire in
 response to seeing the information 
 
-#+BEGIN_CENTER
+#+BEGIN_QUOTE
 *In Javascript*, hyphens [are | are not] allowed in variable names
-#+END_CENTER
+#+END_QUOTE
 ***** Match Occlusion to Desired Implementation
 When deciding what to occlude, think about the implementation of the
 knowledge and try to match that as closely as possible. 
@@ -122,15 +122,15 @@ funk, we want the response to be to take the action of doing something that
 will make us feel a little bit better. This can be trained by occluding as
 follows:
 
-#+BEGIN_CENTER
+#+BEGIN_QUOTE
 When you're in a funk, do something that will [...]
-#+END_CENTER
+#+END_QUOTE
 
 Occluding the opposite way wouldn't make any sense for /what we are trying to acheive/.
 
-#+BEGIN_CENTER
+#+BEGIN_QUOTE
 When you're [...], do something that will make you feel just a little bit better. 
-#+END_CENTER
+#+END_QUOTE
 
 The trigger of the desired action is being in a funk, not doing something that
 will make you feel just a little bit better.
