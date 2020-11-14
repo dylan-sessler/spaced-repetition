@@ -97,7 +97,9 @@ domain specific (eg. to a specific programming language), mention that at the
 start of the cloze deletion to trigger the right parts of your brain to fire in
 response to seeing the information 
 
-> *In Javascript*, hyphens [are | are not] allowed in variable names
+#+BEGIN_CENTER
+*In Javascript*, hyphens [are | are not] allowed in variable names
+#+END_CENTER
 ***** Match Occlusion to Desired Implementation
 When deciding what to occlude, think about the implementation of the
 knowledge and try to match that as closely as possible. 
