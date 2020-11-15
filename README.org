@@ -402,7 +402,183 @@ maintanance by ~10%.
 ****** TODO Build a Plugin for setting the Lapses -> New Interval to default ease
 ** TODO Entry Level SRS
 *** Adding While Learning 
-*** Things you frequently Need
+This is the typical entry point for people working with Spaced Repetition
+Systems. You're actively engaging with learning something new, and you want to
+spend a fraction of the time you spend learning to retain that knowledge for the
+rest of your life. 
+
+While building your knowledge collection, you should feel free to experiment and find processes that works best for you
+and the way you learn.   
+
+That being said, here are some workflows that work well for me that you can try
+out!
+
+**** Incremental Reading
+Incremental Reading is a technique to efficiently and incrementally process knowledge you want to
+learn into Cloze deletions for long term retention in an SRS. In an Incremental
+Reading system knowledge exists in one of three states:
+1) knowledge 
+2) extract
+3) active recall
+ 
+While operating an Incremental Reading workflow you consume *knowledge*,
+highlighting and *extracting* high-value sentences and paragraphs along the way, which are
+then later refined into *active recall* cards for use in an SRS.
+
+The main efficiency of the workflow, as you may have guessed from the name, is
+that you are processing new knowledge *incrementally* - you process it over a
+long period of time in multiple sittings. Recall that knowledge is
+stored in our bodies as phsyical structures, and there are real-word limits to
+the amount of knowledge-structure we can build in a single sitting. Not only are
+there limits to what we can assimilate in a single sitting, much of the
+"understanding and connecting" process - when our new knowledge structures get hooked up to
+other similar knowledge structures in our brain, actually happens when we
+sleep. Therefore, by processing our new knowledge incrementally, over multiple
+sessions over multiple days, we give our body the time to *integrate* the new
+knowledge into our brains. By the time we are creating active recall cards our
+knowledge is *cohesive*, we have a good understanding of the larger picture in
+terms of what is important and what is not, and we can make good decisions on
+what is actually valuable to spend the 140 seconds creating and making.
+
+Trying to read and highlight and convert to active recall in one sitting is very
+possible, you're just not getting the full potential value of creating the
+active recall cards with the bigger picture well-integrated into your
+brain. It's like exercise. You can work out for 5 hours 1 day a week and do
+nothing the rest of the days. However you get a lot more bang for your buck
+working out 1 hour a day 5 days a week because you're better respecting your body's
+real-world structure building and recovery limits.
+
+When you process knowledge incrementally, you avoid more of the diminishing
+returns associated with trying to make too much progress in a single sitting.
+
+If you're still not sold on the idea, here's some further reading on the [[https://supermemo.guru/wiki/Advantages_of_incremental_reading][Advantages of Incremental Reading]]
+from the Supermemo author. It's effective and it's pleasurable and I highly recommend.
+
+***** Implementing Incremental Reading
+If you're using SuperMemo - you're in luck! Incremental Reading is baked right
+into your tool. This is honestly the feature I miss most about Supermemo as the
+workflow from knowledge -> extract -> active recall was absolutely
+seemless. Just go ahead and follow their documentation (with patience for
+idiosyncracies and cluttered UI) and you will be up and running with an amazing
+workflow in no time.
+
+For the rest of us, well we're in a bit of desert and we're going to have to
+start piecing together some different tools. Let's start by breaking down
+Incremental Reading into its essential features and seeing what we can duct-tape
+together:
+
+****** Knowledge Ingress 
+First, we need to get the knowledge we want to learn into the place where we
+will be processing it. Since we're going to be processing it incrementally, over
+multiple sessions, we need to have a centralized repository for storing all of
+our knowledge that is currently in active processing. In addition to the list,
+we also need bookmarking functionality so that we can pick back up where we left
+off.
+
+How you decide to build this system is going to be heavily dependent on what
+type of material you typically consume. Someone who learns exclusively from
+books is going to have very different workflow considerations than someone who
+learns mostly from lectures and video will be different than someone who learns
+mostly from podcasts. The important thing is that you have some kind of system
+to keep track of what you're wanting to process and what your progress is.
+
+This can be as simple as a master google doc, where you link to all the knowlege
+that is currently in process, saving a text string that you can control+F for to
+get you back to the spot. Or maybe you want to get a bit more complicated and
+invest the time in figuring out how to capture web-pages and books efficiently as PDFs for
+upload to a cross-platform e-reader. Or maybe you work mostly with physical
+books and your repository is an organization of your book shelf where actively
+being processed books are on a separate shelf with physical bookmarks.
+
+This will take some time to figure out, but is worth investing the time
+into. You'll be (hopefully) learning for the rest of your life - it's worth
+taking the time to get organized and efficient now! 
+****** Extraction
+In my experience, while reading there are times where I'll get a spike of
+dopamine when I consume something that seems valuable. Whether this is a core
+definition or a keen insight - I'm pretty sure this is something we all
+experience. This is your brain's personal [[https://supermemo.guru/wiki/Knowledge_valuation_network][knowledge valuation network]] letting
+you know "OOOOHHH! Save this! This good!" and it's the stuff you highlight while
+reading a book.
+
+That's really all the extraction process is - highlighting things that seem
+valuable along the way to process at a later date when you have more context /
+are in a different mindset. 
+
+Practically, there are a few different ways you can do this. Once again, it can
+be as simple as the google doc, where you copy and paste your extracts into a
+separate google doc for each book/knowledge piece, and then as you process them
+into your SRS in Anki you delete the extrack or highlight it in a way that
+indicates that it's done. Or you can get really fancy and build out a full-on
+incremental reading system with built-in scheduling like I did in
+org-mode. There is definitely some efficiency to gain here in ergonomics, but
+don't stress about this too much. Just focus on learning and extracting and
+later on processing for active recall and you'll be so far ahead of where you
+were in terms of efficiency before you implemented these systems. Worry about
+streamlining later (especially as better tools are built for these workflows).
+****** Conversion to Active Recall
+Sometimes extracting is a process that takes multiple steps, and it may take
+awhile before you look at some knowledge and really know how you want it to be
+stored as an active recall card in your SRS. This is the hardest part of the
+incremental reading process, but as long as you follow the rules of [[*Formulating Knowledge][Formulating Knowledge]]
+you'll do fine. Remember, don't stress about this step too much. There's a lot
+of degrees of freedom, but you can also always change the card later on during
+review if you don't like the way it's formulated! Remember, try to keep this
+step under 30 seconds!
+****** Scheduling (Optional but really nice)
+Ideally, when you go to learn you make no decisions. You just click a button,
+and knowledge and extracts that you are actively processing just appear one
+after the other. Don't feel like reading the current one? Show me the
+next. Brain starting to hurt while learning about something? Time to move onto
+the next topic. 
+
+This is the workflow Supermemo provides and it is SO GOOD. 
+****** Additional Notes
+- These principals can be applied to other media as well. Eg) video, reflection,
+  conversational review, etc.
+- There are some Incremental Reading Add-Ons for Anki. I have not tested them
+  yet, but there are a couple in active development. I would not recommend
+  starting off trying to make this work - get the SRS workflow down and hack
+  something together in this department and then experiment later on.
+**** My Current Workflow for Cross-Platform Incremental Reading 
+The main decision driver for my current workflow was cross-platform
+compatibility between my computer, my phone, and an e-ink reader running
+android 9. Reading is such a good activity to do when you're stuck in what would
+otherwise be down-time - eg. waiting at the doctor's office, traveling, too
+tired to keep working, etc. - that the idea of not being able to do that on my
+phone while on the go or curled up in bed with an e-reader seemed like a huge
+loss.
+
+Because of this - it pretty much ruled out all open-sourced
+systems. Cross-platform means someone needs to be storing your data on servers,
+which costs somebody money. There are a few things I needed to keep sync'd:
+- content
+- bookmarks
+- annotations (extracts) 
+
+The best solution I've found for my needs is Google Play Books (GPB). I can easily
+purchase almost any book that I want to read and I have a decent workflow for
+adding web content to GPB using the [[https://www.printfriendly.com/][Print Friendly Chrome Plugin]]. In terms of
+being a good repository, it has no support for non-text content, no
+built-in scheduling, and little to no organizational ability. On top of that
+they limit the amount of user-uploaded content allowed (makes sense since the
+hosting is free) so it doesn't really serve as a good backlog (so I supplement
+with a custom-built org-mode development queue system). 
+
+While limited as a repository, the cross-platform syncing is seemless as you
+would expect from google. It also features an [[https://stackoverflow.com/questions/25210481/is-there-a-way-to-export-notes-taken-in-google-play-books][export annotations to google docs]]
+workflow where all of your annotations from all your devices are exported to a
+single google doc with links back to the original annotation in your book on
+google play. This makes easy work for bulk-processing extracts to active recalls after you
+finish the book, and has the added bonus of having the potential to be
+programatically interacted with via google's google docs API for improved
+ergonomics in the future. 
+
+[[./images/google-annotations.png]]
+
+I'm currently satisfied enough with this workflow for my main concern -
+cross-platform syncing. You may come to a different solutions based on your needs!
+*** Things You Frequently Need to Know
 ** TODO Maximalist SRS
 Here are some additional ways that you can utilize your SRS for profit.
 *** Mining your experience
