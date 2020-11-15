@@ -566,7 +566,7 @@ hosting is free) so it doesn't really serve as a good backlog (so I supplement
 with a custom-built org-mode development queue system). 
 
 While limited as a repository, the cross-platform syncing is seemless as you
-would expect from google. It also features an [[https://stackoverflow.com/questions/25210481/is-there-a-way-to-export-notes-taken-in-google-play-books][export annotations to google docs]]
+would expect from google. It also features a very clean [[https://stackoverflow.com/questions/25210481/is-there-a-way-to-export-notes-taken-in-google-play-books][export annotations to google docs]]
 workflow where all of your annotations from all your devices are exported to a
 single google doc with links back to the original annotation in your book on
 google play. This makes easy work for bulk-processing extracts to active recalls after you
@@ -575,10 +575,14 @@ programatically interacted with via google's google docs API for improved
 ergonomics in the future. 
 
 [[./images/google-annotations.png]]
+#+BEGIN_QUOTE
+Example google play books annotation doc for a very good book
+#+END_QUOTE
 
 I'm currently satisfied enough with this workflow for my main concern -
 cross-platform syncing. You may come to a different solutions based on your needs!
 *** Things You Frequently Need to Know
+
 ** TODO Maximalist SRS
 Here are some additional ways that you can utilize your SRS for profit.
 *** Mining your experience
