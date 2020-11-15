@@ -400,7 +400,8 @@ plugin for at some point.
 Eliminating the 10 minute after lapse review will also reduce cost of knowledge
 maintanance by ~10%.
 ****** TODO Build a Plugin for setting the Lapses -> New Interval to default ease
-** TODO Entry Level SRS
+** DONE Entry Level SRS
+   CLOSED: [2020-11-15 Sun 12:06]
 *** Adding While Learning 
 This is the typical entry point for people working with Spaced Repetition
 Systems. You're actively engaging with learning something new, and you want to
@@ -576,20 +577,28 @@ ergonomics in the future.
 
 [[./images/google-annotations.png]]
 #+BEGIN_QUOTE
-Example google play books annotation doc for a very good book
+^^^ Example google play books annotation doc for a very good book
 #+END_QUOTE
 
 I'm currently satisfied enough with this workflow for my main concern -
 cross-platform syncing. You may come to a different solutions based on your needs!
 *** Things You Frequently Need to Know
+Haven't memorized your social security number yet? How about your license plate?
+What about that 5 step workflow that you need to look up everytime you're the
+last one to leave the office?
 
+Depending on what you do - there might be some info
+that's a bit of a pain in the ass to memorize that is useful on a
+somewhat regular basis. Save yourself the time in the future and spend the two minutes to
+memorize it for the rest of your life so you never need to look for that info again.
 ** TODO Maximalist SRS
 Here are some additional ways that you can utilize your SRS for profit.
-*** Mining your experience
-*** Behavior Modification
-*** Mindset Modification 
-*** Training Skills
-*** Modifying the Minds of Others
+*** TODO Mining Your Experience
+
+*** TODO Behavior Modification
+*** TODO Mindset Modification 
+*** TODO Training Skills
+*** TODO Modifying the Minds of Others
 ** DONE Efficient Usage Patterns
    CLOSED: [2020-11-14 Sat 14:58]
 *** DONE Do Not Learn If You Do Not Understand
@@ -689,8 +698,6 @@ Don't bother with relative ease. Just answer "Good" or "Again" - you either got
 it or you didn't and you can use that data in order to [[*Optimizing your Learning Interval][Optimize your Learning Interval]]. 
 **** TODO Build a Plug-in for this
 ** TODO Tips and Tricks
-- Just answer "Good" or "Again" when evaluating a question. Don't stress about the decision of whether
-  something was "Hard" or "Easy". It's unnecessary decision fatigue for minimal gains 
 - Don't worry too much about formatting your knowledge. Keep it simple and
   remember that you can always edit it later if you don't like how it's
   formatted. Try to keep knowledge adding under 30 seconds per piece of knowledge.
