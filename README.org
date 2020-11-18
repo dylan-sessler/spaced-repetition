@@ -1,5 +1,7 @@
-#+OPTIONS: toc:2          (only include two levels in TOC)
 * Spaced Repetition Systems 
+** Table of Contents
+- [[#introduction][Introduction]]
+  - [[#value:cost][Value:Cost]]
 ** Introduction
 *** DONE Value:Cost
     CLOSED: [2020-11-10 Tue 22:41]
