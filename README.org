@@ -153,7 +153,7 @@
  that knowledge! There's a lot to learn and you don't need to be perfect with
  this - just jump in and figure it out over time :)
 
- We cover more best practices of [[#Formulating Knowledge][Formulating Knowledge]] later on. 
+ We cover more best practices of [[#Formulating-Knowledge][Formulating Knowledge]] later on. 
 **** Review the knowledge your SRS has scheduled for you every day
  If you miss a day or a few, it's fine. Don't worry about it. It will be
  slightly less efficient and you'll have a bit of a backlog but the important
@@ -261,7 +261,7 @@ maintaining a knowledge collection I built an [[https://jsfiddle.net/qkt08dfn/3/
 compared behavior of the Anki SM-2 algorithm from the 1990s to my experience
 using the modern SM-18 algorithm in supermemo. 
 
-As you use the tool, you can continue to optimize further by [[*Optimizing your Learning Interval][Optimizing your Learning Interval]],
+As you use the tool, you can continue to optimize further by [[#Optimizing-your-Learning-Interval][Optimizing your Learning Interval]],
 but the above settings are a great place to get started.
 ***** New Cards Options Explained
 | Option                                 | Default Value | More Efficient Value       |
@@ -933,7 +933,7 @@ instead of nagging :)
  session rather than the end? 
 
  Don't bother with relative ease. Just answer "Good" or "Again" - you either got
- it or you didn't and you can use that data in order to [[*Optimizing your Learning Interval][Optimize your Learning Interval]]. 
+ it or you didn't and you can use that data in order to [[#Optimizing-your-Learning-Interval][Optimize your Learning Interval]]. 
 ***** TODO Build a Plug-in for this
 *** DONE Optimizing your Learning Interval
     CLOSED: [2020-11-17 Tue 21:18]
