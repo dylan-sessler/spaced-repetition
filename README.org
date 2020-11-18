@@ -153,7 +153,7 @@
  that knowledge! There's a lot to learn and you don't need to be perfect with
  this - just jump in and figure it out over time :)
 
- We cover more best practices of [[#Formulating-Knowledge][Formulating Knowledge]] later on. 
+ We cover more best practices of [[#Formulating Knowledge][Formulating Knowledge]] later on. 
 **** Review the knowledge your SRS has scheduled for you every day
  If you miss a day or a few, it's fine. Don't worry about it. It will be
  slightly less efficient and you'll have a bit of a backlog but the important
@@ -254,7 +254,7 @@ The default settings to customize are [[https://docs.ankiweb.net/#/deck-options]
 
 (I said it three times so you know it's important)
 
-[[*Rules to be Successful][Skip ahead]] to the next section if you don't want to dive deep.
+[[#Best-Practices][Skip ahead]] to the next section if you don't want to dive deep.
 **** The Deeper Dive Into Options
 In order to determine the effect of different default settings on the cost of
 maintaining a knowledge collection I built an [[https://jsfiddle.net/qkt08dfn/3/][Anki Scheduler Simulator]] and
@@ -275,7 +275,7 @@ The default settings in Anki assume that you are learning something new for the
 very first time in the Anki app (hence the default values of showing the new
 card within 1 minute, and then in 10 minutes). This is an antipattern to efficient and
 cohesive knowledge formation, and breaks the first "rule" that we discuss later
-on [[*Do not learn if you do not understand][Do not learn if you do not understand]].  
+on [[#Do-not-learn-if-you-do-not-understand][Do not learn if you do not understand]].  
 
 By the time you have loaded a piece of knowledge into the SRS you should
 have already had a meaningful exposure, creating a non-trivial amount of memory
@@ -324,7 +324,7 @@ early stages.
 Setting the cadence of review is controlled using the Steps and Graduating
 Interval options. 
 
-The Easy Interval is a feature I don't really use as I prefer [[*Simple Recall Grading][Simple Recall Grading]],
+The Easy Interval is a feature I don't really use as I prefer [[#Simple-Recall-Grading][Simple Recall Grading]],
 but if you were going to use it you should have the Easy interval be at least as
 long as the Graduating Interval.
 
@@ -522,7 +522,7 @@ maintanance by ~10%.
  Sometimes extracting is a process that takes multiple steps, and it may take
  awhile before you look at some knowledge and really know how you want it to be
  stored as an active recall card in your SRS. This is the hardest part of the
- incremental reading process, but as long as you follow the rules of [[*Formulating Knowledge][Formulating Knowledge]]
+ incremental reading process, but as long as you follow the rules of [[#Formulating-Knowledge][Formulating Knowledge]]
  you'll do fine. Remember, don't stress about this step too much. There's a lot
  of degrees of freedom, but you can also always change the card later on during
  review if you don't like the way it's formulated! Remember, try to keep this
