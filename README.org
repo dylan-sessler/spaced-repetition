@@ -1,9 +1,22 @@
 * Spaced Repetition Systems 
 ** Table of Contents
 - [[#introduction][Introduction]]
-  - [[#value:cost][Value:Cost]]
+  - [[#value-to-cost][Value To Cost]]
+  - [[#background][Background]]
+  - [[#spaced-repetition][Spaced Repetition]]
+  - [[#the-process][The Process]] 
+  - [[#the-tools][The Tools]]
+- [[#install][Install]]
+  - [[#syncing-across-devices][Syncing Across Devices]]
+  - [[#anki-documentation][Anki Documentation]]
+  - [[#default-settings][Default Settings]]
+- [[#best-practices][Best Practices]]
+  - [[#entry-level-srs][Entry Level SRS]]
+  - [[#maximalist-srs][Maximalist SRS]]
+  - [[#efficient-usage-patterns][Efficient Usage Patterns]]
+  - [[#optimizing-your-learning-interval][Optimizing Your Learning Interval]]
 ** Introduction
-*** DONE Value:Cost
+*** DONE Value to Cost
     CLOSED: [2020-11-10 Tue 22:41]
 **** Value
  - Guarantee a 95% LIFETIME retention rate on learned material
@@ -214,7 +227,7 @@
 - [[https://apps.ankiweb.net/][Desktop]]
 - [[https://play.google.com/store/apps/details?id=com.ichi2.anki][Google Play (Android)]] 
 - [[https://apps.apple.com/us/app/ankimobile-flashcards/id373493387][Apple]]
-*** DONE Syncing Across Devices 
+*** DONE Syncing Across Devices
     CLOSED: [2020-11-12 Thu 21:25]
 You will want to be using Anki on multiple devices. Adding knowledge to your
 collection is most effectively done on the desktop. Practicing knowledge can be
