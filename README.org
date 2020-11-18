@@ -1,211 +1,211 @@
-* spaced-repetition
-** DONE Value:Cost
-   CLOSED: [2020-11-10 Tue 22:41]
-*** Value
-- Guarantee a 95% LIFETIME retention rate on learned material
-- Reduce barriers to flow in complex, creative work
-- Never need to re-learn anything again
-*** Cost
-- 2 hours set-up 
-- 1-15 minutes/day maintenance (do this while pooping)
-- 30 seconds per item you want to remember to format for SRS
+* Spaced Repetition Systems 
+** Introduction
+*** DONE Value:Cost
+    CLOSED: [2020-11-10 Tue 22:41]
+**** Value
+ - Guarantee a 95% LIFETIME retention rate on learned material
+ - Reduce barriers to flow in complex, creative work
+ - Never need to re-learn anything again
+**** Cost
+ - 2 hours set-up 
+ - 1-15 minutes/day maintenance (do this while pooping)
+ - 30 seconds per item you want to remember to format for SRS
 
-More accurately, you could define the cost as:
-- 2 hours set-up
-- 140 seconds (LIFETIME) per item you want to remember (LIFETIME) 
-  - 30 seconds formatting for SRS 
-  - 110 seconds of lifetime maintenance
-** DONE Background
-   CLOSED: [2020-11-11 Wed 21:05]
-When you learn something you encode the information as a *phsyical*
-structure. It takes up space. It requires nutrients and energy to maintain. An
-average brain consumes about 20% of your daily intake of calories per day. It's
-because of this that your brain has self-cleaning process to keep it as slim and
-efficient as it possibly can be - it's called *forgetting*. 
+ More accurately, you could define the cost as:
+ - 2 hours set-up
+ - 140 seconds (LIFETIME) per item you want to remember (LIFETIME) 
+   - 30 seconds formatting for SRS 
+   - 110 seconds of lifetime maintenance
+*** DONE Background
+    CLOSED: [2020-11-11 Wed 21:05]
+ When you learn something you encode the information as a *phsyical*
+ structure. It takes up space. It requires nutrients and energy to maintain. An
+ average brain consumes about 20% of your daily intake of calories per day. It's
+ because of this that your brain has self-cleaning process to keep it as slim and
+ efficient as it possibly can be - it's called *forgetting*. 
 
-The world our brains evolved in was very different than it is today. We needed
-to get food and reproduce and react really fast to danger. Today, we're knowledge workers. We create value in the complex and
-abstract. We spend much more of our mental energy on future possibilities rather than
-current dangers, and depending on your specific field there are many orders of magnitude of performance increases
-available for making more optimal decisions. What prevents you from accessing
-these higher value solutions is your current physical information structure
-(your brain)'s limited experiences and knowledge.
+ The world our brains evolved in was very different than it is today. We needed
+ to get food and reproduce and react really fast to danger. Today, we're knowledge workers. We create value in the complex and
+ abstract. We spend much more of our mental energy on future possibilities rather than
+ current dangers, and depending on your specific field there are many orders of magnitude of performance increases
+ available for making more optimal decisions. What prevents you from accessing
+ these higher value solutions is your current physical information structure
+ (your brain)'s limited experiences and knowledge.
 
-To upgrade ourselves, we learn. We read books, compare best practices, scour the
-internet, go to conventions, make mistakes, and ask eachother for feedback. And
-as we're spending huge amounts of our time collecting new information and
-experiences we're constantly *forgetting*. This is a huge waste of our efforts
-and time spent learning and amounts to a *loss of 75% of the material learned
-within 48 hours* with more decay happening with every passing hour.
+ To upgrade ourselves, we learn. We read books, compare best practices, scour the
+ internet, go to conventions, make mistakes, and ask eachother for feedback. And
+ as we're spending huge amounts of our time collecting new information and
+ experiences we're constantly *forgetting*. This is a huge waste of our efforts
+ and time spent learning and amounts to a *loss of 75% of the material learned
+ within 48 hours* with more decay happening with every passing hour.
 
-Forgetting is a natural process and it also has a natural solution. Everyone
-reading this article already knows what it is: *practice*.
+ Forgetting is a natural process and it also has a natural solution. Everyone
+ reading this article already knows what it is: *practice*.
 
-When we *re-stimulate* an information structure we have at some point learned, we allocate more resources to
-reinforcing it. It becomes more *durable*, and will be probabilistically less
-likely to be eradicated by our forgetting algorithm. 
+ When we *re-stimulate* an information structure we have at some point learned, we allocate more resources to
+ reinforcing it. It becomes more *durable*, and will be probabilistically less
+ likely to be eradicated by our forgetting algorithm. 
 
-So why don't we practice more? Because we don't have *a system for practicing what we've learned efficiently*.
-** DONE Intro
-   CLOSED: [2020-11-11 Wed 21:11]
-A Spaced Repetition System (*SRS*) optimizes the process of practicing what you
-have learned in order to prevent forgetting. It does so in two ways:
-- It relies on *active recall* rather than *passive study*. This creates more
-  durable knowledge structures.
-- It computes optimum intervals that should separate reviews of knowledge. This
-  takes advantage of the [[https://en.wikipedia.org/wiki/Spacing_effect][the spacing effect]], ensuring that you get the highest available increase in knowledge durability
-  for your time.
+ So why don't we practice more? Because we don't have *a system for practicing what we've learned efficiently*.
+*** DONE Spaced Repetition
+    CLOSED: [2020-11-11 Wed 21:11]
+ A Spaced Repetition System (*SRS*) optimizes the process of practicing what you
+ have learned in order to prevent forgetting. It does so in two ways:
+ - It relies on *active recall* rather than *passive study*. This creates more
+   durable knowledge structures.
+ - It computes optimum intervals that should separate reviews of knowledge. This
+   takes advantage of the [[https://en.wikipedia.org/wiki/Spacing_effect][the spacing effect]], ensuring that you get the highest available increase in knowledge durability
+   for your time.
  
-An SRS is typically facilitated with software in order to enable users to maintain
-vast knowledge collections, sometimes spanning tens and thousands of items, at a
-cost of a few minutes per day. 
+ An SRS is typically facilitated with software in order to enable users to maintain
+ vast knowledge collections, sometimes spanning tens and thousands of items, at a
+ cost of a few minutes per day. 
 
-It takes about 30 seconds to add a piece of knowledge to a Spaced Repetition
-System and about 110 seconds of practice to maintain that knowledge for the rest
-of your lifetime. Knowing these costs you can come to the following conclusions:
-- If at any point in your life you will ever need access to the knowledge again
-  (eg. googling it, checking notes, etc), even just once, you will save yourself time by storing
-  it in your SRS and being able to recall it on demand. 
-  - In addition to the saved time, this also has the added compounding benefit
-    of preventing you from having to leave a flow state in order to
-    seek out the knowledge.
-- If over the course of your lifetime you expect to gain or prevent the loss of your
-  (hourly-pay-rate/30) (eg. $50/hr would come out to $1.67) of increased value
-  from having access to that knowledge, you should store it in your SRS.
+ It takes about 30 seconds to add a piece of knowledge to a Spaced Repetition
+ System and about 110 seconds of practice to maintain that knowledge for the rest
+ of your lifetime. Knowing these costs you can come to the following conclusions:
+ - If at any point in your life you will ever need access to the knowledge again
+   (eg. googling it, checking notes, etc), even just once, you will save yourself time by storing
+   it in your SRS and being able to recall it on demand. 
+   - In addition to the saved time, this also has the added compounding benefit
+     of preventing you from having to leave a flow state in order to
+     seek out the knowledge.
+ - If over the course of your lifetime you expect to gain or prevent the loss of your
+   (hourly-pay-rate/30) (eg. $50/hr would come out to $1.67) of increased value
+   from having access to that knowledge, you should store it in your SRS.
 
-This is the most efficient solution I've found to solve for the problem of forgetting. 
-** DONE Process 
-   CLOSED: [2020-11-14 Sat 12:50]
-The process of implementing a Spaced Repetition System is simple. You need to do
-two things:
-- Add Knowledge
-- Practice Knowledge
-*** Add knowledge you want to maintain to your SRS 
-The process of adding knowledge to your SRS is a process of formatting the
-knowledge for efficient *active recall*. This is done through 
-*occlusion*: hiding some of the information in order to
-challenge your brain to fill in the blank. 
-**** Text Occlusions a.k.a. Cloze Deletions
-Check out the [[https://docs.ankiweb.net/#/editing?id=cloze-deletion][Anki Docs on Cloze Deletion]] for good examples and explanations.
+ This is the most efficient solution I've found to solve for the problem of forgetting. 
+*** DONE The Process 
+    CLOSED: [2020-11-14 Sat 12:50]
+ The process of implementing a Spaced Repetition System is simple. You need to do
+ two things:
+ - Add Knowledge
+ - Practice Knowledge
+**** Add knowledge you want to maintain to your SRS 
+ The process of adding knowledge to your SRS is a process of formatting the
+ knowledge for efficient *active recall*. This is done through 
+ *occlusion*: hiding some of the information in order to challenge your brain to fill in the blank. 
+***** Text Occlusions a.k.a. Cloze Deletions
+ Check out the [[https://docs.ankiweb.net/#/editing?id=cloze-deletion][Anki Docs on Cloze Deletion]] for good examples and explanations.
 
-These will be the most common type of knowledge you will add to your SRS. When
-creating a cloze deletion, you want to keep the following in mind:
-***** Provide Adequate Context
-The text that is not occluded is the /context/ of your knowledge. Try to make
-this context match the context the knowledge will be useful in wherever possible.
+ These will be the most common type of knowledge you will add to your SRS. When
+ creating a cloze deletion, you want to keep the following in mind:
+****** Provide Adequate Context
+ The text that is not occluded is the /context/ of your knowledge. Try to make
+ this context match the context the knowledge will be useful in wherever possible.
 
-When creating cloze deletions, keep in mind that the card will pop up in a
-random order with the rest of your knowledge. If something you are learning is
-domain specific (eg. to a specific programming language), mention that at the
-start of the cloze deletion to trigger the right parts of your brain to fire in
-response to seeing the information 
+ When creating cloze deletions, keep in mind that the card will pop up in a
+ random order with the rest of your knowledge. If something you are learning is
+ domain specific (eg. to a specific programming language), mention that at the
+ start of the cloze deletion to trigger the right parts of your brain to fire in
+ response to seeing the information 
 
-#+BEGIN_QUOTE
-*In Javascript*, hyphens [are | are not] allowed in variable names
-#+END_QUOTE
-***** Match Occlusion to Desired Implementation
-When deciding what to occlude, think about the implementation of the
-knowledge and try to match that as closely as possible. 
+ #+BEGIN_QUOTE
+ *In Javascript*, hyphens [are | are not] allowed in variable names
+ #+END_QUOTE
+****** Match Occlusion to Desired Implementation
+ When deciding what to occlude, think about the implementation of the
+ knowledge and try to match that as closely as possible. 
 
-For example, let's say you're trying to program a healthy response to feeling in a
-funk in yourself. You could start out with the sentence:
+ For example, let's say you're trying to program a healthy response to feeling in a
+ funk in yourself. You could start out with the sentence:
 
-#+BEGIN_QUOTE
-When you're in a funk, do something that will make you feel just a little bit better.
-#+END_QUOTE
+ #+BEGIN_QUOTE
+ When you're in a funk, do something that will make you feel just a little bit better.
+ #+END_QUOTE
 
-What should we occlude here? The answer becomes obvious when you think about
-the implementation. When we are in a funk, we want to take a specific
-action. Being in a funk is the context. Doing something that will make you
-feel better is the action. In the real world, when we identify that we're in a
-funk, we want the response to be to take the action of doing something that
-will make us feel a little bit better. This can be trained by occluding as
-follows:
+ What should we occlude here? The answer becomes obvious when you think about
+ the implementation. When we are in a funk, we want to take a specific
+ action. Being in a funk is the context. Doing something that will make you
+ feel better is the action. In the real world, when we identify that we're in a
+ funk, we want the response to be to take the action of doing something that
+ will make us feel a little bit better. This can be trained by occluding as
+ follows:
 
-#+BEGIN_QUOTE
-When you're in a funk, do something that will [...]
-#+END_QUOTE
+ #+BEGIN_QUOTE
+ When you're in a funk, do something that will [...]
+ #+END_QUOTE
 
-Occluding the opposite way wouldn't make any sense for /what we are trying to acheive/.
+ Occluding the opposite way wouldn't make any sense for /what we are trying to acheive/.
 
-#+BEGIN_QUOTE
-When you're [...], do something that will make you feel just a little bit better. 
-#+END_QUOTE
+ #+BEGIN_QUOTE
+ When you're [...], do something that will make you feel just a little bit better. 
+ #+END_QUOTE
 
-You should be occluding the desired repsonse and leaving the context you want to
-have that response in.
-**** Image Occlusions
-Image occlusions are not part of the stock Anki experience, but are incredibly
-valuable. Much of our knowledge is better expressed as an image rather than
-text and this is a tool that allows you to do that.
+ You should be occluding the desired repsonse and leaving the context you want to
+ have that response in.
+***** Image Occlusions
+ Image occlusions are not part of the stock Anki experience, but are incredibly
+ valuable. Much of our knowledge is better expressed as an image rather than
+ text and this is a tool that allows you to do that.
 
-I would highly recommend installing this right away by following the linked
-instructions below:
-- [[https://docs.ankiweb.net/#/addons?id=add-ons][Anki Docs on Add-Ons]]
-- [[https://ankiweb.net/shared/info/1111933094][Image Occlusion Add-On]]
-**** Final Thoughts
-Formulating knowledge efficiently /for your experience/ is a skill you will
-build over time. Don't worry about being perfect, you can always edit knowledge
-that is poorly formulated when it comes up in review. 
+ I would highly recommend installing this right away by following the linked
+ instructions below:
+ - [[https://docs.ankiweb.net/#/addons?id=add-ons][Anki Docs on Add-Ons]]
+ - [[https://ankiweb.net/shared/info/1111933094][Image Occlusion Add-On]]
+***** Final Thoughts
+ Formulating knowledge efficiently /for your experience/ is a skill you will
+ build over time. Don't worry about being perfect, you can always edit knowledge
+ that is poorly formulated when it comes up in review. 
 
-Remember, that it only costs 110 seconds to retain the knowledge for the rest of
-your life - you shouldn't be spending more than 30 seconds on the formulation of
-that knowledge! There's a lot to learn and you don't need to be perfect with
-this - just jump in and figure it out over time :)
+ Remember, that it only costs 110 seconds to retain the knowledge for the rest of
+ your life - you shouldn't be spending more than 30 seconds on the formulation of
+ that knowledge! There's a lot to learn and you don't need to be perfect with
+ this - just jump in and figure it out over time :)
 
-We cover more best practices of [[*FormulatingKnowledge][Formulating Knowledge]] later on. 
-*** Review the knowledge your SRS has scheduled for you every day
-If you miss a day or a few, it's fine. Don't worry about it. It will be
-slightly less efficient and you'll have a bit of a backlog but the important
-thing is you get back into the habit of maintaining.
-** DONE The Tools
-   CLOSED: [2020-11-12 Thu 21:18]
-*** Anki
-Anki is the SRS I currently use and is the one we will be using to demonstrate
-today. It has the following notable traits.
-- [PLUS] Free and Open Source (FOSS)
-- [PLUS] Cross platform (Linux, Mac, Windows, iOS, Android) 
-  - note: The iOS app is not FOSS. It costs $25 and isn't quite as good as the
-    android version but will do fine. Let's be real, if you have apple products
-    you can afford the $25 to maintain everything you learn for the rest of your life.
-- [MINUS] default settings suck, they will make you spend about double the time you
-  actually need (my recommendations below)
-- [MINUS] The Spaced Repetition Anki employs is a slightly modified version of
-  the open sourced SM-2 (SuperMemo-2) algorithm from 1990. It's simple and effective, but
-  there are better algorithms out there for the core of your SRS. 
-*** Supermemo 
-Supermemo was my first SRS and is a much more powerful tool than Anki. The lead
-developer, Piotr Wozniak, was the orignal creator of Spaced Repetition Systems and he has
-devoted his life to building out an incredibly powerful, but admittedly
-idiosyncratic SRS. He has (self)-published an [[https://supermemo.guru/wiki/SuperMemo_Guru][an incredible amount of work]] on the
-topics of learning, memory, and sleep. 
+ We cover more best practices of [[*FormulatingKnowledge][Formulating Knowledge]] later on. 
+**** Review the knowledge your SRS has scheduled for you every day
+ If you miss a day or a few, it's fine. Don't worry about it. It will be
+ slightly less efficient and you'll have a bit of a backlog but the important
+ thing is you get back into the habit of maintaining.
+*** DONE The Tools
+    CLOSED: [2020-11-12 Thu 21:18]
+**** Anki
+ Anki is the SRS I currently use and is the one we will be using to demonstrate
+ today. It has the following notable traits.
+ - [PLUS] Free and Open Source (FOSS)
+ - [PLUS] Cross platform (Linux, Mac, Windows, iOS, Android) 
+   - note: The iOS app is not FOSS. It costs $25 and isn't quite as good as the
+     android version but will do fine. Let's be real, if you have apple products
+     you can afford the $25 to maintain everything you learn for the rest of your life.
+ - [MINUS] default settings suck, they will make you spend about double the time you
+   actually need (my recommendations below)
+ - [MINUS] The Spaced Repetition Anki employs is a slightly modified version of
+   the open sourced SM-2 (SuperMemo-2) algorithm from 1990. It's simple and effective, but
+   there are better algorithms out there for the core of your SRS. 
+**** Supermemo 
+ Supermemo was my first SRS and is a much more powerful tool than Anki. The lead
+ developer, Piotr Wozniak, was the orignal creator of Spaced Repetition Systems and he has
+ devoted his life to building out an incredibly powerful, but admittedly
+ idiosyncratic SRS. He has (self)-published an [[https://supermemo.guru/wiki/SuperMemo_Guru][an incredible amount of work]] on the
+ topics of learning, memory, and sleep. 
 
-It has the following notable traits:
-- [PLUS] SM-18 algorithm - consistently and obsessively optimized over the last
-  30 years by the father of spaced repetition. 
-- [PLUS] Built-in [[https://supermemo.guru/wiki/Incremental_reading][Incremental Learning]] workflow
-  - This is the only effective tool I've found at implementing a solid
-    incremental learning workflow, which is by far the most efficient method of
-    processing text, video, images from first read -> active-recalls.
-- [MINUS] Windows Only - This means no SRS while you poop :(
-- [MINUS] Closed Source - You are totally reliant on the developer having built
-  something for you to use it. Some workflows and keybindings are really
-  idiosyncratic and you'll wish that someone could have built a plug-in to let
-  you customize it. 
-- [NEUTRAL] [[https://www.help.supermemo.org/wiki/Features][This tool is massive.]] In addition to incremental learning and SRS,
-  it features a sleep analysis tool, a time management tool, a schedule planner,
-  and even an incremental email client. You can go really deep and spend years
-  learning how to leverage this tool more effectively and it can be a bit
-  intimidating to new users. Expect to learn the tool incrementally and you'll
-  be fine. 
+ It has the following notable traits:
+ - [PLUS] SM-18 algorithm - consistently and obsessively optimized over the last
+   30 years by the father of spaced repetition. 
+ - [PLUS] Built-in [[https://supermemo.guru/wiki/Incremental_reading][Incremental Learning]] workflow
+   - This is the only effective tool I've found at implementing a solid
+     incremental learning workflow, which is by far the most efficient method of
+     processing text, video, images from first read -> active-recalls.
+ - [MINUS] Windows Only - This means no SRS while you poop :(
+ - [MINUS] Closed Source - You are totally reliant on the developer having built
+   something for you to use it. Some workflows and keybindings are really
+   idiosyncratic and you'll wish that someone could have built a plug-in to let
+   you customize it. 
+ - [NEUTRAL] [[https://www.help.supermemo.org/wiki/Features][This tool is massive.]] In addition to incremental learning and SRS,
+   it features a sleep analysis tool, a time management tool, a schedule planner,
+   and even an incremental email client. You can go really deep and spend years
+   learning how to leverage this tool more effectively and it can be a bit
+   intimidating to new users. Expect to learn the tool incrementally and you'll
+   be fine. 
 
-Ultimately, I would prefer to be using Supermemo as it's a much more powerful
-tool for a very important job. However the friction created from the tool being closed source and
-Windows only was worse for me than the performance loss from switching to Anki.
-*** Other Tools
-Above are the only two SRSes that I have experience with and are by far the most
-popular. There are others being developed currently that a quick google search
-will reveal. 
+ Ultimately, I would prefer to be using Supermemo as it's a much more powerful
+ tool for a very important job. However the friction created from the tool being closed source and
+ Windows only was worse for me than the performance loss from switching to Anki.
+**** Other Tools
+ Above are the only two SRSes that I have experience with and are by far the most
+ popular. There are others being developed currently that a quick google search
+ will reveal. 
 ** DONE Install
    CLOSED: [2020-11-14 Sat 10:36]
 - [[https://apps.ankiweb.net/][Desktop]]
@@ -400,329 +400,564 @@ plugin for at some point.
 Eliminating the 10 minute after lapse review will also reduce cost of knowledge
 maintanance by ~10%.
 ****** TODO Build a Plugin for setting the Lapses -> New Interval to default ease
-** DONE Entry Level SRS
-   CLOSED: [2020-11-15 Sun 12:06]
-*** Adding While Learning 
-This is the typical entry point for people working with Spaced Repetition
-Systems. You're actively engaging with learning something new, and you want to
-spend a fraction of the time you spend learning to retain that knowledge for the
-rest of your life. 
+** TODO Best Practices
+*** DONE Entry Level SRS
+    CLOSED: [2020-11-15 Sun 12:06]
+**** Adding While Learning 
+ This is the typical entry point for people working with Spaced Repetition
+ Systems. You're actively engaging with learning something new, and you want to
+ spend a fraction of the time you spend learning to retain that knowledge for the
+ rest of your life. 
 
-While building your knowledge collection, you should feel free to experiment and find processes that works best for you
-and the way you learn.   
+ While building your knowledge collection, you should feel free to experiment and find processes that works best for you
+ and the way you learn.   
 
-That being said, here are some workflows that work well for me that you can try
-out!
+ That being said, here are some workflows that work well for me that you can try
+ out!
 
-**** Incremental Reading
-Incremental Reading is a technique to efficiently and incrementally process knowledge you want to
-learn into Cloze deletions for long term retention in an SRS. In an Incremental
-Reading system knowledge exists in one of three states:
-1) knowledge 
-2) extract
-3) active recall
+***** Incremental Reading
+ Incremental Reading is a technique to efficiently and incrementally process knowledge you want to
+ learn into Cloze deletions for long term retention in an SRS. In an Incremental
+ Reading system knowledge exists in one of three states:
+ 1) knowledge 
+ 2) extract
+ 3) active recall
  
-While operating an Incremental Reading workflow you consume *knowledge*,
-highlighting and *extracting* high-value sentences and paragraphs along the way, which are
-then later refined into *active recall* cards for use in an SRS.
+ While operating an Incremental Reading workflow you consume *knowledge*,
+ highlighting and *extracting* high-value sentences and paragraphs along the way, which are
+ then later refined into *active recall* cards for use in an SRS.
 
-The main efficiency of the workflow, as you may have guessed from the name, is
-that you are processing new knowledge *incrementally* - you process it over a
-long period of time in multiple sittings. Recall that knowledge is
-stored in our bodies as phsyical structures, and there are real-word limits to
-the amount of knowledge-structure we can build in a single sitting. Not only are
-there limits to what we can assimilate in a single sitting, much of the
-"understanding and connecting" process - when our new knowledge structures get hooked up to
-other similar knowledge structures in our brain, actually happens when we
-sleep. Therefore, by processing our new knowledge incrementally, over multiple
-sessions over multiple days, we give our body the time to *integrate* the new
-knowledge into our brains. By the time we are creating active recall cards our
-knowledge is *cohesive*, we have a good understanding of the larger picture in
-terms of what is important and what is not, and we can make good decisions on
-what is actually valuable to spend the 140 seconds creating and making.
+ The main efficiency of the workflow, as you may have guessed from the name, is
+ that you are processing new knowledge *incrementally* - you process it over a
+ long period of time in multiple sittings. Recall that knowledge is
+ stored in our bodies as phsyical structures, and there are real-word limits to
+ the amount of knowledge-structure we can build in a single sitting. Not only are
+ there limits to what we can assimilate in a single sitting, much of the
+ "understanding and connecting" process - when our new knowledge structures get hooked up to
+ other similar knowledge structures in our brain, actually happens when we
+ sleep. Therefore, by processing our new knowledge incrementally, over multiple
+ sessions over multiple days, we give our body the time to *integrate* the new
+ knowledge into our brains. By the time we are creating active recall cards our
+ knowledge is *cohesive*, we have a good understanding of the larger picture in
+ terms of what is important and what is not, and we can make good decisions on
+ what is actually valuable to spend the 140 seconds creating and making.
 
-Trying to read and highlight and convert to active recall in one sitting is very
-possible, you're just not getting the full potential value of creating the
-active recall cards with the bigger picture well-integrated into your
-brain. It's like exercise. You can work out for 5 hours 1 day a week and do
-nothing the rest of the days. However you get a lot more bang for your buck
-working out 1 hour a day 5 days a week because you're better respecting your body's
-real-world structure building and recovery limits.
+ Trying to read and highlight and convert to active recall in one sitting is very
+ possible, you're just not getting the full potential value of creating the
+ active recall cards with the bigger picture well-integrated into your
+ brain. It's like exercise. You can work out for 5 hours 1 day a week and do
+ nothing the rest of the days. However you get a lot more bang for your buck
+ working out 1 hour a day 5 days a week because you're better respecting your body's
+ real-world structure building and recovery limits.
 
-When you process knowledge incrementally, you avoid more of the diminishing
-returns associated with trying to make too much progress in a single sitting.
+ When you process knowledge incrementally, you avoid more of the diminishing
+ returns associated with trying to make too much progress in a single sitting.
 
-If you're still not sold on the idea, here's some further reading on the [[https://supermemo.guru/wiki/Advantages_of_incremental_reading][Advantages of Incremental Reading]]
-from the Supermemo author. It's effective and it's pleasurable and I highly recommend.
+ If you're still not sold on the idea, here's some further reading on the [[https://supermemo.guru/wiki/Advantages_of_incremental_reading][Advantages of Incremental Reading]]
+ from the Supermemo author. It's effective and it's pleasurable and I highly recommend.
 
-***** Implementing Incremental Reading
-If you're using SuperMemo - you're in luck! Incremental Reading is baked right
-into your tool. This is honestly the feature I miss most about Supermemo as the
-workflow from knowledge -> extract -> active recall was absolutely
-seemless. Just go ahead and follow their documentation (with patience for
-idiosyncracies and cluttered UI) and you will be up and running with an amazing
-workflow in no time.
+****** Implementing Incremental Reading
+ If you're using SuperMemo - you're in luck! Incremental Reading is baked right
+ into your tool. This is honestly the feature I miss most about Supermemo as the
+ workflow from knowledge -> extract -> active recall was absolutely
+ seemless. Just go ahead and follow their documentation (with patience for
+ idiosyncracies and cluttered UI) and you will be up and running with an amazing
+ workflow in no time.
 
-For the rest of us, well we're in a bit of desert and we're going to have to
-start piecing together some different tools. Let's start by breaking down
-Incremental Reading into its essential features and seeing what we can duct-tape
-together:
+ For the rest of us, well we're in a bit of desert and we're going to have to
+ start piecing together some different tools. Let's start by breaking down
+ Incremental Reading into its essential features and seeing what we can duct-tape
+ together:
 
-****** Knowledge Ingress 
-First, we need to get the knowledge we want to learn into the place where we
-will be processing it. Since we're going to be processing it incrementally, over
-multiple sessions, we need to have a centralized repository for storing all of
-our knowledge that is currently in active processing. In addition to the list,
-we also need bookmarking functionality so that we can pick back up where we left
-off.
+******* Knowledge Ingress 
+ First, we need to get the knowledge we want to learn into the place where we
+ will be processing it. Since we're going to be processing it incrementally, over
+ multiple sessions, we need to have a centralized repository for storing all of
+ our knowledge that is currently in active processing. In addition to the list,
+ we also need bookmarking functionality so that we can pick back up where we left
+ off.
 
-How you decide to build this system is going to be heavily dependent on what
-type of material you typically consume. Someone who learns exclusively from
-books is going to have very different workflow considerations than someone who
-learns mostly from lectures and video will be different than someone who learns
-mostly from podcasts. The important thing is that you have some kind of system
-to keep track of what you're wanting to process and what your progress is.
+ How you decide to build this system is going to be heavily dependent on what
+ type of material you typically consume. Someone who learns exclusively from
+ books is going to have very different workflow considerations than someone who
+ learns mostly from lectures and video will be different than someone who learns
+ mostly from podcasts. The important thing is that you have some kind of system
+ to keep track of what you're wanting to process and what your progress is.
 
-This can be as simple as a master google doc, where you link to all the knowlege
-that is currently in process, saving a text string that you can control+F for to
-get you back to the spot. Or maybe you want to get a bit more complicated and
-invest the time in figuring out how to capture web-pages and books efficiently as PDFs for
-upload to a cross-platform e-reader. Or maybe you work mostly with physical
-books and your repository is an organization of your book shelf where actively
-being processed books are on a separate shelf with physical bookmarks.
+ This can be as simple as a master google doc, where you link to all the knowlege
+ that is currently in process, saving a text string that you can control+F for to
+ get you back to the spot. Or maybe you want to get a bit more complicated and
+ invest the time in figuring out how to capture web-pages and books efficiently as PDFs for
+ upload to a cross-platform e-reader. Or maybe you work mostly with physical
+ books and your repository is an organization of your book shelf where actively
+ being processed books are on a separate shelf with physical bookmarks.
 
-This will take some time to figure out, but is worth investing the time
-into. You'll be (hopefully) learning for the rest of your life - it's worth
-taking the time to get organized and efficient now! 
-****** Extraction
-In my experience, while reading there are times where I'll get a spike of
-dopamine when I consume something that seems valuable. Whether this is a core
-definition or a keen insight - I'm pretty sure this is something we all
-experience. This is your brain's personal [[https://supermemo.guru/wiki/Knowledge_valuation_network][knowledge valuation network]] letting
-you know "OOOOHHH! Save this! This good!" and it's the stuff you highlight while
-reading a book.
+ This will take some time to figure out, but is worth investing the time
+ into. You'll be (hopefully) learning for the rest of your life - it's worth
+ taking the time to get organized and efficient now! 
+******* Extraction
+ In my experience, while reading there are times where I'll get a spike of
+ dopamine when I consume something that seems valuable. Whether this is a core
+ definition or a keen insight - I'm pretty sure this is something we all
+ experience. This is your brain's personal [[https://supermemo.guru/wiki/Knowledge_valuation_network][knowledge valuation network]] letting
+ you know "OOOOHHH! Save this! This good!" and it's the stuff you highlight while
+ reading a book.
 
-That's really all the extraction process is - highlighting things that seem
-valuable along the way to process at a later date when you have more context /
-are in a different mindset. 
+ That's really all the extraction process is - highlighting things that seem
+ valuable along the way to process at a later date when you have more context /
+ are in a different mindset. 
 
-Practically, there are a few different ways you can do this. Once again, it can
-be as simple as the google doc, where you copy and paste your extracts into a
-separate google doc for each book/knowledge piece, and then as you process them
-into your SRS in Anki you delete the extrack or highlight it in a way that
-indicates that it's done. Or you can get really fancy and build out a full-on
-incremental reading system with built-in scheduling like I did in
-org-mode. There is definitely some efficiency to gain here in ergonomics, but
-don't stress about this too much. Just focus on learning and extracting and
-later on processing for active recall and you'll be so far ahead of where you
-were in terms of efficiency before you implemented these systems. Worry about
-streamlining later (especially as better tools are built for these workflows).
-****** Conversion to Active Recall
-Sometimes extracting is a process that takes multiple steps, and it may take
-awhile before you look at some knowledge and really know how you want it to be
-stored as an active recall card in your SRS. This is the hardest part of the
-incremental reading process, but as long as you follow the rules of [[*Formulating Knowledge][Formulating Knowledge]]
-you'll do fine. Remember, don't stress about this step too much. There's a lot
-of degrees of freedom, but you can also always change the card later on during
-review if you don't like the way it's formulated! Remember, try to keep this
-step under 30 seconds!
-****** Scheduling (Optional but really nice)
-Ideally, when you go to learn you make no decisions. You just click a button,
-and knowledge and extracts that you are actively processing just appear one
-after the other. Don't feel like reading the current one? Show me the
-next. Brain starting to hurt while learning about something? Time to move onto
-the next topic. 
+ Practically, there are a few different ways you can do this. Once again, it can
+ be as simple as the google doc, where you copy and paste your extracts into a
+ separate google doc for each book/knowledge piece, and then as you process them
+ into your SRS in Anki you delete the extrack or highlight it in a way that
+ indicates that it's done. Or you can get really fancy and build out a full-on
+ incremental reading system with built-in scheduling like I did in
+ org-mode. There is definitely some efficiency to gain here in ergonomics, but
+ don't stress about this too much. Just focus on learning and extracting and
+ later on processing for active recall and you'll be so far ahead of where you
+ were in terms of efficiency before you implemented these systems. Worry about
+ streamlining later (especially as better tools are built for these workflows).
+******* Conversion to Active Recall
+ Sometimes extracting is a process that takes multiple steps, and it may take
+ awhile before you look at some knowledge and really know how you want it to be
+ stored as an active recall card in your SRS. This is the hardest part of the
+ incremental reading process, but as long as you follow the rules of [[*Formulating Knowledge][Formulating Knowledge]]
+ you'll do fine. Remember, don't stress about this step too much. There's a lot
+ of degrees of freedom, but you can also always change the card later on during
+ review if you don't like the way it's formulated! Remember, try to keep this
+ step under 30 seconds!
+******* Scheduling (Optional but really nice)
+ Ideally, when you go to learn you make no decisions. You just click a button,
+ and knowledge and extracts that you are actively processing just appear one
+ after the other. Don't feel like reading the current one? Show me the
+ next. Brain starting to hurt while learning about something? Time to move onto
+ the next topic. 
 
-This is the workflow Supermemo provides and it is SO GOOD. 
-****** Additional Notes
-- These principals can be applied to other media as well. Eg) video, reflection,
-  conversational review, etc.
-- There are some Incremental Reading Add-Ons for Anki. I have not tested them
-  yet, but there are a couple in active development. I would not recommend
-  starting off trying to make this work - get the SRS workflow down and hack
-  something together in this department and then experiment later on.
-**** My Current Workflow for Cross-Platform Incremental Reading 
-The main decision driver for my current workflow was cross-platform
-compatibility between my computer, my phone, and an e-ink reader running
-android 9. Reading is such a good activity to do when you're stuck in what would
-otherwise be down-time - eg. waiting at the doctor's office, traveling, too
-tired to keep working, etc. - that the idea of not being able to do that on my
-phone while on the go or curled up in bed with an e-reader seemed like a huge
-loss.
+ This is the workflow Supermemo provides and it is SO GOOD. 
+******* Additional Notes
+ - These principals can be applied to other media as well. Eg) video, reflection,
+   conversational review, etc.
+ - There are some Incremental Reading Add-Ons for Anki. I have not tested them
+   yet, but there are a couple in active development. I would not recommend
+   starting off trying to make this work - get the SRS workflow down and hack
+   something together in this department and then experiment later on.
+***** My Current Workflow for Cross-Platform Incremental Reading 
+ The main decision driver for my current workflow was cross-platform
+ compatibility between my computer, my phone, and an e-ink reader running
+ android 9. Reading is such a good activity to do when you're stuck in what would
+ otherwise be down-time - eg. waiting at the doctor's office, traveling, too
+ tired to keep working, etc. - that the idea of not being able to do that on my
+ phone while on the go or curled up in bed with an e-reader seemed like a huge
+ loss.
 
-Because of this - it pretty much ruled out all open-sourced
-systems. Cross-platform means someone needs to be storing your data on servers,
-which costs somebody money. There are a few things I needed to keep sync'd:
-- content
-- bookmarks
-- annotations (extracts) 
+ Because of this - it pretty much ruled out all open-sourced
+ systems. Cross-platform means someone needs to be storing your data on servers,
+ which costs somebody money. There are a few things I needed to keep sync'd:
+ - content
+ - bookmarks
+ - annotations (extracts) 
 
-The best solution I've found for my needs is Google Play Books (GPB). I can easily
-purchase almost any book that I want to read and I have a decent workflow for
-adding web content to GPB using the [[https://www.printfriendly.com/][Print Friendly Chrome Plugin]]. In terms of
-being a good repository, it has no support for non-text content, no
-built-in scheduling, and little to no organizational ability. On top of that
-they limit the amount of user-uploaded content allowed (makes sense since the
-hosting is free) so it doesn't really serve as a good backlog (so I supplement
-with a custom-built org-mode development queue system). 
+ The best solution I've found for my needs is Google Play Books (GPB). I can easily
+ purchase almost any book that I want to read and I have a decent workflow for
+ adding web content to GPB using the [[https://www.printfriendly.com/][Print Friendly Chrome Plugin]]. In terms of
+ being a good repository, it has no support for non-text content, no
+ built-in scheduling, and little to no organizational ability. On top of that
+ they limit the amount of user-uploaded content allowed (makes sense since the
+ hosting is free) so it doesn't really serve as a good backlog (so I supplement
+ with a custom-built org-mode development queue system). 
 
-While limited as a repository, the cross-platform syncing is seemless as you
-would expect from google. It also features a very clean [[https://stackoverflow.com/questions/25210481/is-there-a-way-to-export-notes-taken-in-google-play-books][export annotations to google docs]]
-workflow where all of your annotations from all your devices are exported to a
-single google doc with links back to the original annotation in your book on
-google play. This makes easy work for bulk-processing extracts to active recalls after you
-finish the book, and has the added bonus of having the potential to be
-programatically interacted with via google's google docs API for improved
-ergonomics in the future. 
+ While limited as a repository, the cross-platform syncing is seemless as you
+ would expect from google. It also features a very clean [[https://stackoverflow.com/questions/25210481/is-there-a-way-to-export-notes-taken-in-google-play-books][export annotations to google docs]]
+ workflow where all of your annotations from all your devices are exported to a
+ single google doc with links back to the original annotation in your book on
+ google play. This makes easy work for bulk-processing extracts to active recalls after you
+ finish the book, and has the added bonus of having the potential to be
+ programatically interacted with via google's google docs API for improved
+ ergonomics in the future. 
 
-[[./images/google-annotations.png]]
-#+BEGIN_QUOTE
-^^^ Example google play books annotation doc for a very good book
-#+END_QUOTE
+ [[./images/google-annotations.png]]
+ #+BEGIN_QUOTE
+ ^^^ Example google play books annotation doc for a very good book
+ #+END_QUOTE
 
-I'm currently satisfied enough with this workflow for my main concern -
-cross-platform syncing. You may come to a different solutions based on your needs!
-*** Things You Frequently Need to Know
-Haven't memorized your social security number yet? How about your license plate?
-What about that 5 step workflow that you need to look up everytime you're the
-last one to leave the office?
+ I'm currently satisfied enough with this workflow for my main concern -
+ cross-platform syncing. You may come to a different solutions based on your needs!
+**** Things You Frequently Need to Know
+ Haven't memorized your social security number yet? How about your license plate?
+ What about that 5 step workflow that you need to look up everytime you're the
+ last one to leave the office?
 
-Depending on what you do - there might be some info
-that's a bit of a pain in the ass to memorize that is useful on a
-somewhat regular basis. Save yourself the time in the future and spend the two minutes to
-memorize it for the rest of your life so you never need to look for that info again.
-** TODO Maximalist SRS
+ Depending on what you do - there might be some info
+ that's a bit of a pain in the ass to memorize that is useful on a
+ somewhat regular basis. Save yourself the time in the future and spend the two minutes to
+ memorize it for the rest of your life so you never need to look for that info again.
+*** DONE Maximalist SRS
+    CLOSED: [2020-11-17 Tue 21:12]
 Here are some additional ways that you can utilize your SRS for profit.
-*** TODO Mining Your Experience
+**** DONE Mining Your Experience
+     CLOSED: [2020-11-17 Tue 19:45]
+The amount that you are actively reading non-fiction books in order to learn
+will vary throughout your life. However, consuming content is not the only place
+where we learn. I've found that the most valuable things to store in my SRS are
+the lessons I learn through my experience as a human. This knowledge has an incredibly high
+chance of being relevant in your life and storing it in your SRS guarantees that
+you're consistently making forward progress in your life - never having to
+re-learn something twice.
 
-*** TODO Behavior Modification
-*** TODO Mindset Modification 
-*** TODO Training Skills
-*** TODO Modifying the Minds of Others
-** DONE Efficient Usage Patterns
-   CLOSED: [2020-11-14 Sat 14:58]
-*** DONE Do Not Learn If You Do Not Understand
-    CLOSED: [2020-11-14 Sat 14:16]
-The goal of an SRS is to efficiently maintain and improve the durability of your
-hard-earned knowledge and experience. It is not to be really good at answering
-text occlusions.
+Here are some examples that I've stored recently in my SRS from experience mining:
+- If the fire doesn't light the first {{c1::two}} times on a propane stove, let it sit for 5 minutes to dissipate.
+  - This will make sure years later I don't repeat blowing up a bunch of propane
+    in my face, jumping back, and spraining my wrist on a metal table that was behind me. 
+- Spending {{c1::unstructured, unstimulated}} time with people creates the space for you to appreciate them 
+  - A nice thing to keep in mind for longer term relationships in my life. It's
+    easy to get into habits of always doing something with someone, but I find
+    that unstructured, unstimulated time is necessary to maintaining high
+    quality connection with people. Remembering this will have a direct
+    improvement in my decision-making towards optimizing my experience while spending time with people.
+- Storing your file local variables in emacs in a "COMMENT Local Variables" heading at the {{c1::end::file location}} of a file is really nice for file ergonomics
+  - This was a really nice ergonomic efficiency I figured out while working on
+    an emacs project. It may be awhile before I need to do this again, so I'd
+    rather spend the 140 seconds to make sure I don't have to re-solve for this
+    next time. It took me ~15 minutes to determine the solution the first time
+    so this should save me time down the road if I need it again at any point in
+    the next 50 years.
 
-The more *cohesive*, or interconnected, your knowledge is the more useful and durable it is likely
-to be. The more you know about a topic and the more you understand about how
-it's related to other topics, the more useful and durable the knowledge on the
-topic will be. On a physical level, highly cohesive knowledge results in knowledge
-structures that are larger and more interconected. Due to the size and quantity
-of the connections, this knowledge is much less likely to be eliminated by your
-forgetting processes.
+It would be great if these lessons auto-populated into your SRS, but alas this
+is not the case. Here are a few ideas for how to pro-actively mine your
+experience for valuable lessons.
 
-When you create an active recall card for SRS, you will get much more value in
-terms of overall knowledge durability increase if it fires an electrical impulse
-of stimulus into a cohesive knowledge network rather than an isolated piece of knoledge.
+***** Record as you Learn
+This is the ideal, as you learn something new you take the time to capture it
+directly in your SRS or another system which you periodically migrate to your
+SRS (like an evernote doc). This way you'd never miss anything. There are two
+problems with this approach that make it infeasible most of the time though:
 
-As a general rule, you can practice this by never importing another person's
-Anki decks. By taking the time to get the bigger picture and do the synthesis
-work on your own you will get a lot more bang for your buck on your review time.
+1. Typically when you're learning something, you're doing something. And to
+   record what you just learned while doing something you'd have to stop doing
+   the thing. This requires a break in flow and probably isn't worth capturing
+   in most cases.
+2. When you're doing something, hopefully you're engaged in what you're
+   doing. You're probably not also synthesizing your experience into patterns
+   and making value judgements on if those patterns will be applicable again in
+   your life in a meaningful enough way to take the time to record into your
+   SRS.
 
-The only potential exception I can see for this learning a new language, as you
-already have strong knowledge networks relating to a concept, you are just
-looking to associate a new symbol mapping to that concept. But even then,
-realize that you are only learning symbol mappings. It's up to you to still
-practice the language in context to learn how to speak it.
-*** DONE Formulating Knowledge
-    CLOSED: [2020-11-14 Sat 14:25]
-The author of Supermemo published an article in 1999 that is still cited widely
-as the gold standard resource on [[http://super-memory.com/articles/20rules.htm][The 20 Rules of Formulating Knowledge]].
-(Note that the first rule is "Do Not Learn if You Do Not Understand") 
+This will work sometimes, like when you're in a meeting and you're already
+taking notes. However most of the time this won't be consistent enough and
+you'll need to supplement with additional mining strategies. 
+***** My Current Workflow: Daily Journal
+Every day before work I make some time to journal. As part of this journaling
+practice, I record things I learned the previous day in a separate header from
+my general journal entry. 
 
-I would *STRONGLY* recommend reading and re-reading the article, but if you don't here's the
-main takeaway:
+When I get to this prompt, I first try recall any of the "loud" lessons from the
+previous day that pop up right away. An example of a loud lesson would be like
+the propane fire example earlier. The next day it was hurting to type as I was
+doing this activity and I very much did not want to repeat. 
+
+After the loud lessons die down and I haven't thought of anything new for 10-20
+seconds or so, I'll pull up my calendar. With each event from the previous day
+I'll try to think about what happened, and if there was anything I learned from
+it. Sometimes I'll also pull out my to do list or development queue and do the
+same thing - replaying the activities in my head to see if anything jumps out as
+a valuable lesson. 
+
+This is a really nice activity for providing a sense of continuity in my
+life. I've found since doing this I feel like my past few days don't seem to
+have "flown by" as fast (because I have re-stimulated the brain structures
+related to them) and it feels really good to be pulling out decision making
+upgrades from my experience and saving those into my brain with SRS for
+long-term value. It feels like I'm consistently moving forward and making
+progress in becoming a better person.
+
+Your day-to-day lesson load will vary based on how you're feeling and what
+you're spending your time doing. Mine will typically be somewhere between 3 and
+9 SRS-worthy lessons I'll extract each day. 
+
+You really do learn something new every day when you're actively looking for it!
+***** My Next Workflow: Time Tracking
+I really like the Daily Journal workflow, but I want to be able to replay my
+days more accurately in order to mine more lessons out of each day and lock in
+more forward progress. Currently the calendar + to do list review really doesn't
+cut it as there are a lot of big gaps in my days that I have a hard time
+recalling how I was spending my time.
+
+Time tracking, from wake up until bedtime, using a tool like [[https://toggl.com/][Toggl]] is something
+that I've done in the past and really enjoyed. This was a daily habit I loved
+that unfortunately was in its nascent statges when the stress of the coronavirus
+pandemic induced lack of practice obliterated its associated structures from my brain. For the small cost of 10 seconds
+in between tasks you can get accurate data on how you've spent your days, weeks,
+months, and years! This
+is super valuable for making sure your micro time-spending decisions are
+aligning with your macro priorities as a human. I would highly recommend
+everyone try this at least for a short time - I learned a lot about myself from
+doing so!
+
+A nice side-effect of tracking your time is that you have an almost
+perfect log of the exact sequence of activities you did that day. I can imagine
+this offers a level of replay-ability of your day that would really aide the
+experience mining process at a cost of roughly 3 minutes per day with additional
+benefits!
+
+Remember, these "lessons" you're learning are patterns of success that your
+brain is identifying after doing something sub-optimally. These success
+patterns that you don't retain you will have to re-learn and that typically
+results in a cost of a lot more than 140 seconds!
+**** DONE Mindset Modification 
+     CLOSED: [2020-11-17 Tue 20:29]
+Our brains are not divine intuiters of truth. They are collections of physically
+encoded experiences arranged in a network that when stimulated with inputs,
+produce outputs. Changing the way your brain works means making certain inputs
+produce different outputs. And because our brain is a physical (material,
+chemical, electrical, etc.) system, in order to produce different outputs we
+need to change the physical structure of our brains.
+
+As we know from earlier, we naturally delete phsyical structures from our brain
+through the process of forgetting and we grow and improve the durability of
+physical structures in our brain through practice. It would appear that we have
+a simple yet effective formula for changing our mindsets:
+
 #+BEGIN_QUOTE
-Store knowledge as simply as possible, but no simpler.
+Don't practice things we want to eliminate from our experience. 
+Do practice things we want to experience more.
+#+END_QUOTE 
+
+Albeit simple, we know this to be effective scientifically and intuitively. [[https://positivepsychology.com/gratitude-happiness-research/][Practicing gratitude makes you happier.]] 
+[[https://www.jonbarron.org/happiness-mental-health/stress-risks-watching-news][Watching the news about stressful events is more stressful than being at the event]].
+Survivors of trauma have to deal with the effects that experience has on
+what their brains output.
+
+A spaced repetition system is a tool for efficiently re-stimulating brain
+structures. It works just as well for technical knowledge as it does for growing
+the parts of your brain that are responsible for your happiness and
+positivity. 
+
+If you identify something that you want to change, make some cards
+and review it optimally so you can efficiently practice your new mindset. 
+**** DONE Behavior Modification
+     CLOSED: [2020-11-17 Tue 20:37]
+Similar to our mindsets, our behaviors, or rather our responeses to certain
+stimuli are also encoded as physical structures in our brain. Subject to the
+same ability for manipulation through deliberate practice.
+
+Our brains are wonderful simulators of experience. We can even [[https://www.scientificamerican.com/article/how-to-grow-stronger-without-lifting-weights/][improve muscle mass by just thinking of working out]].
+By making an SRS card describing a stimulus and occluding your ideal response,
+you can practice making good habits at an interval that is optimized for
+efficient brain structure retention.
+
+Here's an example of a behavior modification card I added to my collection
+recently:
+#+BEGIN_QUOTE
+when feeling tired / needing dopamine, taking a {{c1::stretch::physical activity}} break is a great way to reset
 #+END_QUOTE
 
-The knowledge you store in your brain has to be encoded in physical
-structures. Do yourself a favor and make your job easy by keeping your knowledge
-simple.
+This is an attempt to replace a bad habit of seeking dopamine producing
+behaviors when I'm tired (eg. eating sugar, watching youtube, etc.) with
+something that is both good for me and provides my brain the rest it actually
+needs in order to reset!
 
-For practical examples of this, read [[http://super-memory.com/articles/20rules.htm][The 20 Rules of Formulating Knowledge]].
-*** DONE Everything in One Deck
-    CLOSED: [2020-11-14 Sat 14:37]
-The Anki manual has [[https://docs.ankiweb.net/#/editing?id=using-decks-appropriately][some documentation on this]], but it's not strongly worded
-enough in my opinion. 
+This works - give it a shot!
+**** DONE Training Skills
+     CLOSED: [2020-11-17 Tue 20:41]
+Guess what your skills are stored as? Anybody thinking physical structures in
+your brain? Anyone have an idea of how to efficiently practice to maintain
+physical structures in your brain?
 
-You should only ever be using one deck. You want your knowledge to be all mixed together and interconnected - it's a huge and free
-buff to durability of knowledge structures. In addition to this, it also enables
-you to make novel connections between topics as a free bonus!
+Make SRS cards that prompt you to practice a skill. Here's an example of how I
+format these cards in my collection:
+#+BEGIN_QUOTE
+skill: tie a lark's head knot
+#+END_QUOTE 
 
-When you have multiple decks, you have to spend time going into each deck and
-doing your daily review and practically you don't end up doing this and end up
-having large sections of your knowledge base that decay. You should really be
-using tags or custom fields to separate your knowledge for easier group access
-later.
+I use a different card type than cloze deletion for this as there's nothing to
+cloze delete. I'll use a basic flashcard with a refrerence to documentation on how to complete the skill.
+**** DONE Positive Memory Maintenance
+     CLOSED: [2020-11-17 Tue 20:54]
+There are certain moments in life that are absolutely amazing. Pure bliss of
+experience. Some people will keep physical momentos or take pictures of an
+experience in order to maintain / relive a bit of that memory.  
 
-As an example, when I was learning to play League of Legends, I was Anki-ing a
-ton. While I was doing this I was tagging the knowledge with "league", which
-enabled me to mass-suspend (no longer be reviewing) the knowledge a few months
-later when I stopped playing.
+You can lose things and they take up space. Just put the memory in your SRS :)
+**** DONE Modifying the Minds of Others
+     CLOSED: [2020-11-17 Tue 21:12]
+I haven't tried this one yet admittedly, but I'm almost certain it would be
+very effective. In a way, our SRS is already doing this to us: it is a system
+outside of our brains that is providing us
+with experiences at well-optimized intervals that grow and reinforce certain
+parts of our brain. 
 
-That being said, there are some cases where you could break this rule
-profitably. I personally have a second deck "nsfw", which as you might guess is
-where I store knowledge relating to topics I wouldn't want to be displaying on a
-screen while my boss walked by. This is a good example of a case for multiple
-decks where you always want to be reviewing the knowledge separately.
-*** DONE Simple Recall Grading
-    CLOSED: [2020-11-14 Sat 14:56]
-When practicing knowledge in Anki, you have four options to answer with based on how well
-you remembered or didn't remember proper response to the occlusion. [[https://docs.ankiweb.net/#/studying?id=reviewing][Link to Documentation]].
+You already modify other people's brains all the time when you
+interact with them by providing the experiences you provide. Using an SRS to do
+so just allows you to sustain that influence very efficiently over a period as
+long as a lifetime.
 
-This idea behind this feature is to dynamically adjust the multiplier between
-intervals of review (ease) to more accurately match the "difficulty" of the
-knowledge you are trying to actively recall. This is a cute idea in theory, but
-the reality is that this dramatically increases [[https://en.wikipedia.org/wiki/Decision_fatigue][decision fatigue]] and the
-cognitive cost of a review session.
+Because the brain structures you are attempting to modify are not your own, you
+may need to use an interval that exponentially increases more slowly to account
+for the resistance to inception. Or maybe you'd want to start off at a longer
+interval so they don't catch onto you / think you're a psycho? Let me know if any of you try this I'm super
+curious :)
 
-Not only is this decision mentally draining, making your new habit harder than it
-needs to be, it really doesn't do anything material to benefit you. Even if you
-answer "Easy" on every active recall for a piece of knowledge for the rest of
-your life, you're only going to shave off 3 reviews - or 30 seconds total. If
-the maximum amount of time you can save is 30 seconds IFF you mark EVERY
-response as easy (highly unlikely as the interval multiplier increses each time) - is it really worth
-having to make that decision on EVERY knowledge review? 
+Here are some examples of how I could see this being used profitably.
+***** Shared Postive Memory Restimulation
+Aahhh remember that time when we ...? This can be a nice way to assist a friend
+you shared a great memory with maintaining that positive experience.
+***** Healing Insecurities
+Let's say you find out that a partner has been abandoned in the past and that
+they consistently feel anxiety that you're going to leave them. In addition to
+being a good listener and providing emotional support in the moment, you can
+queue out a lifetime of future reassurances by putting a:
+#+BEGIN_QUOTE
+command: reassure partner that you're not going to abandon them
+#+END_QUOTE
+in your SRS. I don't know any other way to heal past trauma than to provide
+reassurances over long periods of time. Putting the task in your SRS is a way to
+tap into an existing habit in order to provide healing for a lifetime.
+***** Nagging++
+- Honey, do the dishes when you get home!
+- Honey, you need to wash your sheets more often than twice a year!
+- Honey, please do not put your shoes on the couch!
 
-Not only that - what is the relative ease of answering the active recall prompt
-really telling you? Is it that the knowledge is poorly formulated? Is it that
-you're tired at that moment? It it just that you're at the beginning of a review
-session rather than the end? 
+Nagging is just a way people try to influence the behavior of others. They hope
+that with persistent requests, often made at really annoying moments, that they
+will modify the brains of their partners and get the performance they are
+looking for.
 
-Don't bother with relative ease. Just answer "Good" or "Again" - you either got
-it or you didn't and you can use that data in order to [[*Optimizing your Learning Interval][Optimize your Learning Interval]]. 
-**** TODO Build a Plug-in for this
-** TODO Tips and Tricks
-- Don't worry too much about formatting your knowledge. Keep it simple and
-  remember that you can always edit it later if you don't like how it's
-  formatted. Try to keep knowledge adding under 30 seconds per piece of knowledge.
-** TODO Useful Add-Ons
-** TODO Optimizing your Learning Interval
+Wouldn't a much nicer and more efficient way to request a behavior modification be to receive a
+text like this?
+#+BEGIN_QUOTE
+Honey, please import the attached Anki card to your SRS <3
+#+END_QUOTE
+
+In general, people want to act in a way that pleases people they care about. The
+problem with nagging is that it's done at a time when you're not focused on
+self-improvement (eg. just got home from work) and it's typically only ever done
+when you fail to produce the desired behavior (eg. when you put your shoes on
+the couch).
+
+Give your partner a chance to pro-actively meet your needs. Send them SRS cards
+instead of nagging :)
+*** DONE Efficient Usage Patterns
+    CLOSED: [2020-11-14 Sat 14:58]
+**** DONE Do Not Learn If You Do Not Understand
+     CLOSED: [2020-11-14 Sat 14:16]
+ The goal of an SRS is to efficiently maintain and improve the durability of your
+ hard-earned knowledge and experience. It is not to be really good at answering
+ text occlusions.
+
+ The more *cohesive*, or interconnected, your knowledge is the more useful and durable it is likely
+ to be. The more you know about a topic and the more you understand about how
+ it's related to other topics, the more useful and durable the knowledge on the
+ topic will be. On a physical level, highly cohesive knowledge results in knowledge
+ structures that are larger and more interconected. Due to the size and quantity
+ of the connections, this knowledge is much less likely to be eliminated by your
+ forgetting processes.
+
+ When you create an active recall card for SRS, you will get much more value in
+ terms of overall knowledge durability increase if it fires an electrical impulse
+ of stimulus into a cohesive knowledge network rather than an isolated piece of knoledge.
+
+ As a general rule, you can practice this by never importing another person's
+ Anki decks. By taking the time to get the bigger picture and do the synthesis
+ work on your own you will get a lot more bang for your buck on your review time.
+
+ The only potential exception I can see for this learning a new language, as you
+ already have strong knowledge networks relating to a concept, you are just
+ looking to associate a new symbol mapping to that concept. But even then,
+ realize that you are only learning symbol mappings. It's up to you to still
+ practice the language in context to learn how to speak it.
+**** DONE Formulating Knowledge
+     CLOSED: [2020-11-14 Sat 14:25]
+ The author of Supermemo published an article in 1999 that is still cited widely
+ as the gold standard resource on [[http://super-memory.com/articles/20rules.htm][The 20 Rules of Formulating Knowledge]].
+ (Note that the first rule is "Do Not Learn if You Do Not Understand") 
+
+ I would *STRONGLY* recommend reading and re-reading the article, but if you don't here's the
+ main takeaway:
+ #+BEGIN_QUOTE
+ Store knowledge as simply as possible, but no simpler.
+ #+END_QUOTE
+
+ The knowledge you store in your brain has to be encoded in physical
+ structures. Do yourself a favor and make your job easy by keeping your knowledge
+ simple.
+
+ For practical examples of this, read [[http://super-memory.com/articles/20rules.htm][The 20 Rules of Formulating Knowledge]].
+**** DONE Everything in One Deck
+     CLOSED: [2020-11-14 Sat 14:37]
+ The Anki manual has [[https://docs.ankiweb.net/#/editing?id=using-decks-appropriately][some documentation on this]], but it's not strongly worded
+ enough in my opinion. 
+
+ You should only ever be using one deck. You want your knowledge to be all mixed together and interconnected - it's a huge and free
+ buff to durability of knowledge structures. In addition to this, it also enables
+ you to make novel connections between topics as a free bonus!
+
+ When you have multiple decks, you have to spend time going into each deck and
+ doing your daily review and practically you don't end up doing this and end up
+ having large sections of your knowledge base that decay. You should really be
+ using tags or custom fields to separate your knowledge for easier group access
+ later.
+
+ As an example, when I was learning to play League of Legends, I was Anki-ing a
+ ton. While I was doing this I was tagging the knowledge with "league", which
+ enabled me to mass-suspend (no longer be reviewing) the knowledge a few months
+ later when I stopped playing.
+
+ That being said, there are some cases where you could break this rule
+ profitably. I personally have a second deck "nsfw", which as you might guess is
+ where I store knowledge relating to topics I wouldn't want to be displaying on a
+ screen while my boss walked by. This is a good example of a case for multiple
+ decks where you always want to be reviewing the knowledge separately.
+**** DONE Simple Recall Grading
+     CLOSED: [2020-11-14 Sat 14:56]
+ When practicing knowledge in Anki, you have four options to answer with based on how well
+ you remembered or didn't remember proper response to the occlusion. [[https://docs.ankiweb.net/#/studying?id=reviewing][Link to Documentation]].
+
+ This idea behind this feature is to dynamically adjust the multiplier between
+ intervals of review (ease) to more accurately match the "difficulty" of the
+ knowledge you are trying to actively recall. This is a cute idea in theory, but
+ the reality is that this dramatically increases [[https://en.wikipedia.org/wiki/Decision_fatigue][decision fatigue]] and the
+ cognitive cost of a review session.
+
+ Not only is this decision mentally draining, making your new habit harder than it
+ needs to be, it really doesn't do anything material to benefit you. Even if you
+ answer "Easy" on every active recall for a piece of knowledge for the rest of
+ your life, you're only going to shave off 3 reviews - or 30 seconds total. If
+ the maximum amount of time you can save is 30 seconds IFF you mark EVERY
+ response as easy (highly unlikely as the interval multiplier increses each time) - is it really worth
+ having to make that decision on EVERY knowledge review? 
+
+ Not only that - what is the relative ease of answering the active recall prompt
+ really telling you? Is it that the knowledge is poorly formulated? Is it that
+ you're tired at that moment? It it just that you're at the beginning of a review
+ session rather than the end? 
+
+ Don't bother with relative ease. Just answer "Good" or "Again" - you either got
+ it or you didn't and you can use that data in order to [[*Optimizing your Learning Interval][Optimize your Learning Interval]]. 
+***** TODO Build a Plug-in for this
+*** DONE Optimizing your Learning Interval
+    CLOSED: [2020-11-17 Tue 21:18]
 The amount of effort it takes to maintain a knowledge retention rate increases
 exponentially the closer it gets to 100%. Eg) it takes a lot less work to
 increase retention from 85% -> 90% than it does from 90% -> 95%. In general,
-users of SRS target a 90% retention rate, which means that 90% of the time they
+users of SRS target a 90% correct response rate, which means that 90% of the time they
 remembered the active recall prompt, and 10% of the time they could not recall
-the prompt.
+the prompt. This is typically a good trade-off between effort and retention.
 
 Since this is the retention rate at time of recall and the average card in your
 collection will be halfway between just reviewed and the next time of recall,
 your actual retention rate for your knowledge collection will be roughly equal
-to  100%-(100%-targetRetentionRate)/2. In our case of targeting 90%, your
-average recall across your collection at any point in time in your life will be
+to  100%-(100%-targetCorrectResponseRate)/2. In our case of targeting 90%
+correct responses, your average recall across your collection at any point in time in your life will be
 95%.
 
 This is adequate for most users and is a good balance of value:cost. This is
-also something you can tweak.
+also something you can tweak. From time to time (twice a year?), you should check your [[https://docs.ankiweb.net/#/stats?id=the-graphs][stats in Anki]]
+and if your correct response rate is more than a couple points off of 90% you
+can follow these steps: [[https://docs.ankiweb.net/#/deck-options?id=reviews][Anki Documentation on modifying the Interval Modifier]].
 
-[[https://docs.ankiweb.net/#/deck-options?id=reviews][Anki Documentation on modifying the Interval Modifier]]
-** TODO Further Work
-*** TODO Incremental Reading Documentation
-** Miscellaneous
-
+This will make sure you're getting a good balance of time spent to knowledge
+retention. Why spend any more time than you need to?
+*** TODO Add-Ons
+STUB
 * presentation
