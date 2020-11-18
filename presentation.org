@@ -1,0 +1,51 @@
+#+title: Spaced Repetition Systems 
+#+subtitle: A daily habit you can do while pooping to remember everything you learn (forever)
+#+date: 2020-11-19
+#+author: Dylan Sessler
+#+email: dsessler88@gmail.com
+#+beamer_color_theme: wolverine
+#+beamer_font_theme: professionalfonts
+#+beamer_theme: default
+
+* Scheduled Programming 
+1) Introduction to SRS (HYPE) [NO NOTES]
+2) Y'all install 
+3) Y'all read documentation at your own pace
+* Value:Cost
+** Value
+- Guarantee a 95% LIFETIME retention rate on learned material
+- Reduce barriers to flow in complex, creative work
+- Never need to re-learn anything again
+** Cost
+- 2 hours set-up 
+- 1-15 minutes/day maintenance (do this while pooping)
+- 30 seconds per item you want to remember to format for SRS
+* Background
+- information stored as physical structures
+- forgetting
+- how to prevent forgetting? 
+* Background 2 
+- memory durability 
+- why don't we practice more?
+* Spaced Repetition System
+** Optimized Practice
+- active recall
+- optimal intervals (spacing effect)
+- software
+** SRS worthy?
+- 140 seconds
+- time saved 
+- value gained
+* The Process
+- add knowledge (occlusions)
+- review knowledge 
+* The Tools 
+** Anki [X]
+- FOSS
+- cross platform
+** Supermemo
+- incremental learning
+- SM-18 
+- windows
+* Install
+https://github.com/shw00p/spaced-repetition#install

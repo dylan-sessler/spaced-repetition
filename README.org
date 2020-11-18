@@ -1,3 +1,4 @@
+#+OPTIONS: toc:2          (only include two levels in TOC)
 * Spaced Repetition Systems 
 ** Introduction
 *** DONE Value:Cost
@@ -400,7 +401,8 @@ plugin for at some point.
 Eliminating the 10 minute after lapse review will also reduce cost of knowledge
 maintanance by ~10%.
 ****** TODO Build a Plugin for setting the Lapses -> New Interval to default ease
-** TODO Best Practices
+** DONE Best Practices
+   CLOSED: [2020-11-17 Tue 22:41]
 *** DONE Entry Level SRS
     CLOSED: [2020-11-15 Sun 12:06]
 **** Adding While Learning 
@@ -960,4 +962,4 @@ This will make sure you're getting a good balance of time spent to knowledge
 retention. Why spend any more time than you need to?
 *** TODO Add-Ons
 STUB
-* presentation
+
