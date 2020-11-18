@@ -1,4 +1,7 @@
 * Spaced Repetition Systems 
+[[*Background][Testing Link: *Background]]
+[[#Background][Testing Link #Background]]
+[[* Background][Testing Link * Background]]
 ** Introduction
 *** DONE Value:Cost
     CLOSED: [2020-11-10 Tue 22:41]
@@ -153,7 +156,7 @@
  that knowledge! There's a lot to learn and you don't need to be perfect with
  this - just jump in and figure it out over time :)
 
- We cover more best practices of [[*FormulatingKnowledge][Formulating Knowledge]] later on. 
+ We cover more best practices of [[*Formulating Knowledge][Formulating Knowledge]] later on. 
 **** Review the knowledge your SRS has scheduled for you every day
  If you miss a day or a few, it's fine. Don't worry about it. It will be
  slightly less efficient and you'll have a bit of a backlog but the important
