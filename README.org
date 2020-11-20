@@ -15,6 +15,7 @@
   - [[#maximalist-srs][Maximalist SRS]]
   - [[#efficient-usage-patterns][Efficient Usage Patterns]]
   - [[#optimizing-your-learning-interval][Optimizing Your Learning Interval]]
+- [[#Presentation][Presentation]]
 ** Introduction
 *** DONE Value to Cost
     CLOSED: [2020-11-10 Tue 22:41]
@@ -978,3 +979,4 @@ retention. Why spend any more time than you need to?
 *** TODO Add-Ons
 STUB
 
+** [[https://www.loom.com/share/0f5439bdf63640d3b1e641acc5172047][Presentation]]
