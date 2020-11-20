@@ -34,7 +34,7 @@
    - 110 seconds of lifetime maintenance
 *** DONE Background
     CLOSED: [2020-11-11 Wed 21:05]
- When you learn something you encode the information as a *phsyical*
+ When you learn something you encode the information as a *physical*
  structure. It takes up space. It requires nutrients and energy to maintain. An
  average brain consumes about 20% of your daily intake of calories per day. It's
  because of this that your brain has self-cleaning process to keep it as slim and
@@ -49,7 +49,7 @@
  (your brain)'s limited experiences and knowledge.
 
  To upgrade ourselves, we learn. We read books, compare best practices, scour the
- internet, go to conventions, make mistakes, and ask eachother for feedback. And
+ internet, go to conventions, make mistakes, and ask each other for feedback. And
  as we're spending huge amounts of our time collecting new information and
  experiences we're constantly *forgetting*. This is a huge waste of our efforts
  and time spent learning and amounts to a *loss of 75% of the material learned
@@ -142,13 +142,13 @@
  When you're in a funk, do something that will [...]
  #+END_QUOTE
 
- Occluding the opposite way wouldn't make any sense for /what we are trying to acheive/.
+ Occluding the opposite way wouldn't make any sense for /what we are trying to achieve/.
 
  #+BEGIN_QUOTE
  When you're [...], do something that will make you feel just a little bit better. 
  #+END_QUOTE
 
- You should be occluding the desired repsonse and leaving the context you want to
+ You should be occluding the desired response and leaving the context you want to
  have that response in.
 ***** Image Occlusions
  Image occlusions are not part of the stock Anki experience, but are incredibly
@@ -191,7 +191,7 @@
    there are better algorithms out there for the core of your SRS. 
 **** Supermemo 
  Supermemo was my first SRS and is a much more powerful tool than Anki. The lead
- developer, Piotr Wozniak, was the orignal creator of Spaced Repetition Systems and he has
+ developer, Piotr Wozniak, was the original creator of Spaced Repetition Systems and he has
  devoted his life to building out an incredibly powerful, but admittedly
  idiosyncratic SRS. He has (self)-published an [[https://supermemo.guru/wiki/SuperMemo_Guru][an incredible amount of work]] on the
  topics of learning, memory, and sleep. 
@@ -244,7 +244,7 @@ important to remember or interesting knowledge from the manual itself!
 *** DONE Default Settings
     CLOSED: [2020-11-14 Sat 10:35]
 Use the defaults at the peril of your own wasted time. Below are the settings I
-*STRONGLY* recommend along with explantations for those of you who are
+*STRONGLY* recommend along with explanations for those of you who are
 curious. Changing these settings will result in a roughly 66% cost reduction in daily
 maintenance time over your lifetime for an imperceptible loss to retention.
 
@@ -289,7 +289,7 @@ but the above settings are a great place to get started.
 
 The default settings in Anki assume that you are learning something new for the
 very first time in the Anki app (hence the default values of showing the new
-card within 1 minute, and then in 10 minutes). This is an antipattern to efficient and
+card within 1 minute, and then in 10 minutes). This is an anti-pattern to efficient and
 cohesive knowledge formation, and breaks the first "rule" that we discuss later
 on [[#Do-not-learn-if-you-do-not-understand][Do not learn if you do not understand]].  
 
@@ -332,7 +332,7 @@ which is really important for two reasons:
 
 The reason not to reduce the early learning load would be if the retention rate
 dropped to an unacceptable level during this period. I have not found this to be
-the case for way I formulate my knowledge but your milage may vary depending on
+the case for way I formulate my knowledge but your mileage may vary depending on
 how you use your SRS. Using my settings my current retention rate on Young Cards
 (defined as between 1 and 21 days old) is 99.15%, strongly suggesting that I should actually be reviewing *less frequently* in the
 early stages. 
@@ -414,7 +414,7 @@ whatever your default ease is set to) and is likely something I will build a
 plugin for at some point.
 
 Eliminating the 10 minute after lapse review will also reduce cost of knowledge
-maintanance by ~10%.
+maintenance by ~10%.
 ****** TODO Build a Plugin for setting the Lapses -> New Interval to default ease
 ** DONE Best Practices
    CLOSED: [2020-11-17 Tue 22:41]
@@ -447,7 +447,7 @@ maintanance by ~10%.
  The main efficiency of the workflow, as you may have guessed from the name, is
  that you are processing new knowledge *incrementally* - you process it over a
  long period of time in multiple sittings. Recall that knowledge is
- stored in our bodies as phsyical structures, and there are real-word limits to
+ stored in our bodies as physical structures, and there are real-word limits to
  the amount of knowledge-structure we can build in a single sitting. Not only are
  there limits to what we can assimilate in a single sitting, much of the
  "understanding and connecting" process - when our new knowledge structures get hooked up to
@@ -477,8 +477,8 @@ maintanance by ~10%.
  If you're using SuperMemo - you're in luck! Incremental Reading is baked right
  into your tool. This is honestly the feature I miss most about Supermemo as the
  workflow from knowledge -> extract -> active recall was absolutely
- seemless. Just go ahead and follow their documentation (with patience for
- idiosyncracies and cluttered UI) and you will be up and running with an amazing
+ seamless. Just go ahead and follow their documentation (with patience for
+ idiosyncrasies and cluttered UI) and you will be up and running with an amazing
  workflow in no time.
 
  For the rest of us, well we're in a bit of desert and we're going to have to
@@ -501,7 +501,7 @@ maintanance by ~10%.
  mostly from podcasts. The important thing is that you have some kind of system
  to keep track of what you're wanting to process and what your progress is.
 
- This can be as simple as a master google doc, where you link to all the knowlege
+ This can be as simple as a master google doc, where you link to all the knowledge
  that is currently in process, saving a text string that you can control+F for to
  get you back to the spot. Or maybe you want to get a bit more complicated and
  invest the time in figuring out how to capture web-pages and books efficiently as PDFs for
@@ -527,7 +527,7 @@ maintanance by ~10%.
  Practically, there are a few different ways you can do this. Once again, it can
  be as simple as the google doc, where you copy and paste your extracts into a
  separate google doc for each book/knowledge piece, and then as you process them
- into your SRS in Anki you delete the extrack or highlight it in a way that
+ into your SRS in Anki you delete the extract or highlight it in a way that
  indicates that it's done. Or you can get really fancy and build out a full-on
  incremental reading system with built-in scheduling like I did in
  org-mode. There is definitely some efficiency to gain here in ergonomics, but
@@ -584,7 +584,7 @@ maintanance by ~10%.
  hosting is free) so it doesn't really serve as a good backlog (so I supplement
  with a custom-built org-mode development queue system). 
 
- While limited as a repository, the cross-platform syncing is seemless as you
+ While limited as a repository, the cross-platform syncing is seamless as you
  would expect from google. It also features a very clean [[https://stackoverflow.com/questions/25210481/is-there-a-way-to-export-notes-taken-in-google-play-books][export annotations to google docs]]
  workflow where all of your annotations from all your devices are exported to a
  single google doc with links back to the original annotation in your book on
@@ -602,7 +602,7 @@ maintanance by ~10%.
  cross-platform syncing. You may come to a different solutions based on your needs!
 **** Things You Frequently Need to Know
  Haven't memorized your social security number yet? How about your license plate?
- What about that 5 step workflow that you need to look up everytime you're the
+ What about that 5 step workflow that you need to look up every time you're the
  last one to leave the office?
 
  Depending on what you do - there might be some info
@@ -626,10 +626,10 @@ Here are some examples that I've stored recently in my SRS from experience minin
 - If the fire doesn't light the first {{c1::two}} times on a propane stove, let it sit for 5 minutes to dissipate.
   - This will make sure years later I don't repeat blowing up a bunch of propane
     in my face, jumping back, and spraining my wrist on a metal table that was behind me. 
-- Spending {{c1::unstructured, unstimulated}} time with people creates the space for you to appreciate them 
+- Spending {{c1::unstructured, un-stimulated}} time with people creates the space for you to appreciate them 
   - A nice thing to keep in mind for longer term relationships in my life. It's
     easy to get into habits of always doing something with someone, but I find
-    that unstructured, unstimulated time is necessary to maintaining high
+    that unstructured, un-stimulated time is necessary to maintaining high
     quality connection with people. Remembering this will have a direct
     improvement in my decision-making towards optimizing my experience while spending time with people.
 - Storing your file local variables in emacs in a "COMMENT Local Variables" heading at the {{c1::end::file location}} of a file is really nice for file ergonomics
@@ -656,7 +656,7 @@ problems with this approach that make it infeasible most of the time though:
    in most cases.
 2. When you're doing something, hopefully you're engaged in what you're
    doing. You're probably not also synthesizing your experience into patterns
-   and making value judgements on if those patterns will be applicable again in
+   and making value judgments on if those patterns will be applicable again in
    your life in a meaningful enough way to take the time to record into your
    SRS.
 
@@ -702,7 +702,7 @@ recalling how I was spending my time.
 
 Time tracking, from wake up until bedtime, using a tool like [[https://toggl.com/][Toggl]] is something
 that I've done in the past and really enjoyed. This was a daily habit I loved
-that unfortunately was in its nascent statges when the stress of the coronavirus
+that unfortunately was in its nascent stages when the stress of the corona-virus
 pandemic induced lack of practice obliterated its associated structures from my brain. For the small cost of 10 seconds
 in between tasks you can get accurate data on how you've spent your days, weeks,
 months, and years! This
@@ -730,7 +730,7 @@ produce different outputs. And because our brain is a physical (material,
 chemical, electrical, etc.) system, in order to produce different outputs we
 need to change the physical structure of our brains.
 
-As we know from earlier, we naturally delete phsyical structures from our brain
+As we know from earlier, we naturally delete physical structures from our brain
 through the process of forgetting and we grow and improve the durability of
 physical structures in our brain through practice. It would appear that we have
 a simple yet effective formula for changing our mindsets:
@@ -754,7 +754,7 @@ If you identify something that you want to change, make some cards
 and review it optimally so you can efficiently practice your new mindset. 
 **** DONE Behavior Modification
      CLOSED: [2020-11-17 Tue 20:37]
-Similar to our mindsets, our behaviors, or rather our responeses to certain
+Similar to our mindsets, our behaviors, or rather our responses to certain
 stimuli are also encoded as physical structures in our brain. Subject to the
 same ability for manipulation through deliberate practice.
 
@@ -788,11 +788,11 @@ skill: tie a lark's head knot
 #+END_QUOTE 
 
 I use a different card type than cloze deletion for this as there's nothing to
-cloze delete. I'll use a basic flashcard with a refrerence to documentation on how to complete the skill.
+cloze delete. I'll use a basic flashcard with a reference to documentation on how to complete the skill.
 **** DONE Positive Memory Maintenance
      CLOSED: [2020-11-17 Tue 20:54]
 There are certain moments in life that are absolutely amazing. Pure bliss of
-experience. Some people will keep physical momentos or take pictures of an
+experience. Some people will keep physical momentous or take pictures of an
 experience in order to maintain / relive a bit of that memory.  
 
 You can lose things and they take up space. Just put the memory in your SRS :)
@@ -816,7 +816,7 @@ interval so they don't catch onto you / think you're a psycho? Let me know if an
 curious :)
 
 Here are some examples of how I could see this being used profitably.
-***** Shared Postive Memory Restimulation
+***** Shared Positive Memory Re-stimulation
 Aahhh remember that time when we ...? This can be a nice way to assist a friend
 you shared a great memory with maintaining that positive experience.
 ***** Healing Insecurities
@@ -866,13 +866,13 @@ instead of nagging :)
  to be. The more you know about a topic and the more you understand about how
  it's related to other topics, the more useful and durable the knowledge on the
  topic will be. On a physical level, highly cohesive knowledge results in knowledge
- structures that are larger and more interconected. Due to the size and quantity
+ structures that are larger and more interconnected. Due to the size and quantity
  of the connections, this knowledge is much less likely to be eliminated by your
  forgetting processes.
 
  When you create an active recall card for SRS, you will get much more value in
  terms of overall knowledge durability increase if it fires an electrical impulse
- of stimulus into a cohesive knowledge network rather than an isolated piece of knoledge.
+ of stimulus into a cohesive knowledge network rather than an isolated piece of knowledge.
 
  As a general rule, you can practice this by never importing another person's
  Anki decks. By taking the time to get the bigger picture and do the synthesis
@@ -921,7 +921,7 @@ instead of nagging :)
  later when I stopped playing.
 
  That being said, there are some cases where you could break this rule
- profitably. I personally have a second deck "nsfw", which as you might guess is
+ profitably. I personally have a second deck "NSFW", which as you might guess is
  where I store knowledge relating to topics I wouldn't want to be displaying on a
  screen while my boss walked by. This is a good example of a case for multiple
  decks where you always want to be reviewing the knowledge separately.
@@ -941,7 +941,7 @@ instead of nagging :)
  answer "Easy" on every active recall for a piece of knowledge for the rest of
  your life, you're only going to shave off 3 reviews - or 30 seconds total. If
  the maximum amount of time you can save is 30 seconds IFF you mark EVERY
- response as easy (highly unlikely as the interval multiplier increses each time) - is it really worth
+ response as easy (highly unlikely as the interval multiplier increases each time) - is it really worth
  having to make that decision on EVERY knowledge review? 
 
  Not only that - what is the relative ease of answering the active recall prompt
