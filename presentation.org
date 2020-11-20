@@ -29,7 +29,7 @@
 - why don't we practice more?
 * Spaced Repetition System
 ** Optimized Practice
-- active recall
+- active recall (occlusions)
 - optimal intervals (spacing effect)
 - software
 ** SRS worthy?
@@ -37,7 +37,7 @@
 - time saved 
 - value gained
 * The Process
-- add knowledge (occlusions)
+- add knowledge 
 - review knowledge 
 * The Tools 
 ** Anki [X]
