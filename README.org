@@ -1,4 +1,5 @@
 * Spaced Repetition Systems 
+[[./images/more-shit-more-anki.png]]
 ** Table of Contents
 - [[#introduction][Introduction]]
   - [[#value-to-cost][Value To Cost]]
