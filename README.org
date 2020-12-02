@@ -905,7 +905,7 @@ instead of nagging :)
 **** DONE Everything in One Deck
      CLOSED: [2020-11-14 Sat 14:37]
  The Anki manual has [[https://docs.ankiweb.net/#/editing?id=using-decks-appropriately][some documentation on this]], but it's not strongly worded
- enough in my opinion. 
+ enough in my opinion.
 
  You should only ever be using one deck. You want your knowledge to be all mixed together and interconnected - it's a huge and free
  buff to durability of knowledge structures. In addition to this, it also enables
@@ -923,10 +923,14 @@ instead of nagging :)
  later when I stopped playing.
 
  That being said, there are some cases where you could break this rule
- profitably. I personally have a second deck "NSFW", which as you might guess is
- where I store knowledge relating to topics I wouldn't want to be displaying on a
- screen while my boss walked by. This is a good example of a case for multiple
- decks where you always want to be reviewing the knowledge separately.
+ profitably. The best example I've found is when there are cards that have a
+ *specific context that they must be done in that is different from your typical
+ review context*. 
+
+This means that if the card comes up during your normal review, you will likely
+be unable to do it. Some good examples of this are if in order to complete a
+card you must be on your computer and you normally do your reviews from your
+phone. In this case, starting a deck called "computer" would make sense.
 **** DONE Simple Recall Grading
      CLOSED: [2020-11-14 Sat 14:56]
  When practicing knowledge in Anki, you have four options to answer with based on how well
