@@ -106,6 +106,8 @@
 ***** Text Occlusions a.k.a. Cloze Deletions
  Check out the [[https://docs.ankiweb.net/#/editing?id=cloze-deletion][Anki Docs on Cloze Deletion]] for good examples and explanations.
 
+ Here's an example [[https://www.loom.com/share/1fa631074b71405e8906764cef84f966][video of me creating cloze deletions in anki]].
+
  These will be the most common type of knowledge you will add to your SRS. When
  creating a cloze deletion, you want to keep the following in mind:
 ****** Provide Adequate Context
