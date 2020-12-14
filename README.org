@@ -121,7 +121,7 @@
  response to seeing the information 
 
  #+BEGIN_QUOTE
- *In Javascript*, hyphens [are | are not] allowed in variable names
+ *In JavaScript*, hyphens [are | are not] allowed in variable names
  #+END_QUOTE
 ****** Match Occlusion to Desired Implementation
  When deciding what to occlude, think about the implementation of the
@@ -193,8 +193,8 @@
  - [MINUS] The Spaced Repetition Anki employs is a slightly modified version of
    the open sourced SM-2 (SuperMemo-2) algorithm from 1990. It's simple and effective, but
    there are better algorithms out there for the core of your SRS. 
-**** Supermemo 
- Supermemo was my first SRS and is a much more powerful tool than Anki. The lead
+**** SuperMemo 
+ SuperMemo was my first SRS and is a much more powerful tool than Anki. The lead
  developer, Piotr Wozniak, was the original creator of Spaced Repetition Systems and he has
  devoted his life to building out an incredibly powerful, but admittedly
  idiosyncratic SRS. He has (self)-published an [[https://supermemo.guru/wiki/SuperMemo_Guru][an incredible amount of work]] on the
@@ -219,7 +219,7 @@
    intimidating to new users. Expect to learn the tool incrementally and you'll
    be fine. 
 
- Ultimately, I would prefer to be using Supermemo as it's a much more powerful
+ Ultimately, I would prefer to be using SuperMemo as it's a much more powerful
  tool for a very important job. However the friction created from the tool being closed source and
  Windows only was worse for me than the performance loss from switching to Anki.
 **** Other Tools
@@ -279,7 +279,7 @@ The default settings to customize are [[https://docs.ankiweb.net/#/deck-options]
 In order to determine the effect of different default settings on the cost of
 maintaining a knowledge collection I built an [[https://jsfiddle.net/qkt08dfn/3/][Anki Scheduler Simulator]] and
 compared behavior of the Anki SM-2 algorithm from the 1990s to my experience
-using the modern SM-18 algorithm in supermemo. 
+using the modern SM-18 algorithm in SuperMemo. 
 
 As you use the tool, you can continue to optimize further by [[#Optimizing-your-Learning-Interval][Optimizing your Learning Interval]],
 but the above settings are a great place to get started.
@@ -406,7 +406,7 @@ observe this regularly when we re-learn something and it is much easier to learn
 than the first time. This is a HUGE design flaw in the efficiency of the application
 in supporting lifetime learning.
 
-Compare this to Supermemo, where due to the consistent exponential delay
+Compare this to SuperMemo, where due to the consistent exponential delay
 increases ensure that your daily review load will be mostly set by the rate of
 new cards being added to your collection, not also exponentially growing based
 on the sized of your collection.
@@ -475,11 +475,11 @@ maintenance by ~10%.
  returns associated with trying to make too much progress in a single sitting.
 
  If you're still not sold on the idea, here's some further reading on the [[https://supermemo.guru/wiki/Advantages_of_incremental_reading][Advantages of Incremental Reading]]
- from the Supermemo author. It's effective and it's pleasurable and I highly recommend.
+ from the SuperMemo author. It's effective and it's pleasurable and I highly recommend.
 
 ****** Implementing Incremental Reading
  If you're using SuperMemo - you're in luck! Incremental Reading is baked right
- into your tool. This is honestly the feature I miss most about Supermemo as the
+ into your tool. This is honestly the feature I miss most about SuperMemo as the
  workflow from knowledge -> extract -> active recall was absolutely
  seamless. Just go ahead and follow their documentation (with patience for
  idiosyncrasies and cluttered UI) and you will be up and running with an amazing
@@ -555,7 +555,7 @@ maintenance by ~10%.
  next. Brain starting to hurt while learning about something? Time to move onto
  the next topic. 
 
- This is the workflow Supermemo provides and it is SO GOOD. 
+ This is the workflow SuperMemo provides and it is SO GOOD. 
 ******* Additional Notes
  - These principals can be applied to other media as well. Eg) video, reflection,
    conversational review, etc.
@@ -589,13 +589,22 @@ maintenance by ~10%.
  with a custom-built org-mode development queue system). 
 
  While limited as a repository, the cross-platform syncing is seamless as you
- would expect from google. It also features a very clean [[https://stackoverflow.com/questions/25210481/is-there-a-way-to-export-notes-taken-in-google-play-books][export annotations to google docs]]
- workflow where all of your annotations from all your devices are exported to a
+ would expect from google. 
+
+ There is an [[https://stackoverflow.com/questions/25210481/is-there-a-way-to-export-notes-taken-in-google-play-books][export annotations to google docs]] workflow where all of your
+ annotations from all your devices are exported to a
  single google doc with links back to the original annotation in your book on
- google play. This makes easy work for bulk-processing extracts to active recalls after you
- finish the book, and has the added bonus of having the potential to be
- programatically interacted with via google's google docs API for improved
- ergonomics in the future. 
+ google play. This feature would be great, but I've found that the tool breaks
+ down on books with a large volume of annotations. I'm not sure if this is
+ related to time-outs on the sync requests or is related to Digital Rights
+ Management Copy/Paste limitations. 
+
+ I've also explored trying to export the data directly as JSON, but
+ unfortunately Google Play Books doesn't store the full string of your
+ annotation - just a preview. What they do store is the start / stop locations
+ of the annotation, and it may be possible to re-assemble. I've found the
+ workflow of just [[https://www.loom.com/share/e41e4878b9d94945bb0b693bbc50e306][just working out of the book]] isn't that bad though and have not
+ explored this deeply. 
 
  [[./images/google-annotations.png]]
  #+BEGIN_QUOTE
@@ -636,9 +645,9 @@ Here are some examples that I've stored recently in my SRS from experience minin
     that unstructured, un-stimulated time is necessary to maintaining high
     quality connection with people. Remembering this will have a direct
     improvement in my decision-making towards optimizing my experience while spending time with people.
-- Storing your file local variables in emacs in a "COMMENT Local Variables" heading at the {{c1::end::file location}} of a file is really nice for file ergonomics
+- Storing your file local variables in Emacs in a "COMMENT Local Variables" heading at the {{c1::end::file location}} of a file is really nice for file ergonomics
   - This was a really nice ergonomic efficiency I figured out while working on
-    an emacs project. It may be awhile before I need to do this again, so I'd
+    an Emacs project. It may be awhile before I need to do this again, so I'd
     rather spend the 140 seconds to make sure I don't have to re-solve for this
     next time. It took me ~15 minutes to determine the solution the first time
     so this should save me time down the road if I need it again at any point in
@@ -651,7 +660,7 @@ experience for valuable lessons.
 ***** Record as you Learn
 This is the ideal, as you learn something new you take the time to capture it
 directly in your SRS or another system which you periodically migrate to your
-SRS (like an evernote doc). This way you'd never miss anything. There are two
+SRS (like an Evernote doc). This way you'd never miss anything. There are two
 problems with this approach that make it infeasible most of the time though:
 
 1. Typically when you're learning something, you're doing something. And to
@@ -774,7 +783,7 @@ when feeling tired / needing dopamine, taking a {{c1::stretch::physical activity
 #+END_QUOTE
 
 This is an attempt to replace a bad habit of seeking dopamine producing
-behaviors when I'm tired (eg. eating sugar, watching youtube, etc.) with
+behaviors when I'm tired (eg. eating sugar, watching YouTube, etc.) with
 something that is both good for me and provides my brain the rest it actually
 needs in order to reset!
 
@@ -821,7 +830,7 @@ curious :)
 
 Here are some examples of how I could see this being used profitably.
 ***** Shared Positive Memory Re-stimulation
-Aahhh remember that time when we ...? This can be a nice way to assist a friend
+Ahh remember that time when we ...? This can be a nice way to assist a friend
 you shared a great memory with maintaining that positive experience.
 ***** Healing Insecurities
 Let's say you find out that a partner has been abandoned in the past and that
@@ -889,7 +898,7 @@ instead of nagging :)
  practice the language in context to learn how to speak it.
 **** DONE Formulating Knowledge
      CLOSED: [2020-11-14 Sat 14:25]
- The author of Supermemo published an article in 1999 that is still cited widely
+ The author of SuperMemo published an article in 1999 that is still cited widely
  as the gold standard resource on [[http://super-memory.com/articles/20rules.htm][The 20 Rules of Formulating Knowledge]].
  (Note that the first rule is "Do Not Learn if You Do Not Understand") 
 
