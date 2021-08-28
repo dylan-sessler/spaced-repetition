@@ -1,5 +1,4 @@
 * Spaced Repetition Systems 
-[[./images/more-shit-more-anki.jpg]]
 ** Table of Contents
 - [[#introduction][Introduction]]
   - [[#value-to-cost][Value To Cost]]
@@ -26,7 +25,7 @@
  - Never need to re-learn anything again
 **** Cost
  - 2 hours set-up 
- - 1-15 minutes/day maintenance (do this while pooping)
+ - 1-15 minutes/day maintenance
  - 30 seconds per item you want to remember to format for SRS
 
  More accurately, you could define the cost as:
